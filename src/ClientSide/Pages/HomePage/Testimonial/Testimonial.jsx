@@ -66,8 +66,8 @@ const Testimonial = () => {
                                 <div className='text-white 2xl:ml-[20px] xl:ml-[15px] ml-[5px]'>
                                     <h3 className='testHeading'>Suud Olat</h3>
                                     <div className='flex items-center'>
-                                        <h4 className='testSubHeading'>Graphics Designer</h4>
-                                        <h3 className='2xl:ml-[10px] 2xl:mt-[10px] xl:ml-[5px] xl:mt-[5px] ml-1 mt-1'><img className='h-[1px] xl:w-[25px] 2xl:w-[34px] w-[10px]' src={line} alt="" /></h3>
+                                        {/* <h4 className='testSubHeading'>Graphics Designer</h4> */}
+                                        {/* <h3 className='2xl:ml-[10px] 2xl:mt-[10px] xl:ml-[5px] xl:mt-[5px] ml-1 mt-1'><img className='h-[1px] xl:w-[25px] 2xl:w-[34px] w-[10px]' src={line} alt="" /></h3> */}
                                     </div>
                                 </div>
                             </div>
@@ -97,8 +97,8 @@ const Testimonial = () => {
                                 <div className='text-white 2xl:ml-[20px] xl:ml-[15px] ml-[5px]'>
                                     <h3 className='testHeading'>Liban Yasin</h3>
                                     <div className='flex items-center'>
-                                        <h4 className='testSubHeading'>Graphics Designer</h4>
-                                        <h3 className='2xl:ml-[10px] 2xl:mt-[10px] xl:ml-[5px] xl:mt-[5px] ml-1 mt-1'><img className='h-[1px] xl:w-[25px] 2xl:w-[34px] w-[10px]' src={line} alt="" /></h3>
+                                        {/* <h4 className='testSubHeading'>Graphics Designer</h4> */}
+                                        {/* <h3 className='2xl:ml-[10px] 2xl:mt-[10px] xl:ml-[5px] xl:mt-[5px] ml-1 mt-1'><img className='h-[1px] xl:w-[25px] 2xl:w-[34px] w-[10px]' src={line} alt="" /></h3> */}
                                     </div>
                                 </div>
                             </div>
@@ -128,8 +128,8 @@ const Testimonial = () => {
                                 <div className='text-white 2xl:ml-[20px] xl:ml-[15px] ml-[5px]'>
                                     <h3 className='testHeading'>Rondo Services</h3>
                                     <div className='flex items-center'>
-                                        <h4 className='testSubHeading'>Graphics Designer</h4>
-                                        <h3 className='2xl:ml-[10px] 2xl:mt-[10px] xl:ml-[5px] xl:mt-[5px] ml-1 mt-1'><img className='h-[1px] xl:w-[25px] 2xl:w-[34px] w-[10px]' src={line} alt="" /></h3>
+                                        {/* <h4 className='testSubHeading'>Graphics Designer</h4> */}
+                                        {/* <h3 className='2xl:ml-[10px] 2xl:mt-[10px] xl:ml-[5px] xl:mt-[5px] ml-1 mt-1'><img className='h-[1px] xl:w-[25px] 2xl:w-[34px] w-[10px]' src={line} alt="" /></h3> */}
                                     </div>
                                 </div>
                             </div>

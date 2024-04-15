@@ -223,16 +223,20 @@ const PortFolioBranding = () => {
                                             <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
                                                 <div >
                                                     <div className="PortraitImgOne ">
-                                                        <img className="h-full w-full" src="/pOne.png" alt="" />
+                                                        <img className="h-full w-full" src="/public/imageOne.png" alt="" />
                                                     </div>
                                                     <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                                                         <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
+<<<<<<< HEAD
                                                             {/* <h5 className="overlayText">View Website</h5> */}
+=======
+                                                            <h5 className="overlayText">View More</h5>
+>>>>>>> 5a011d6c2deb210751a8d71517216fb8e52b4a30
                                                             <p><FaArrowRightLong></FaArrowRightLong></p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4>
+                                                <h4 className="potraitBottomText rounded-[15px] text-center">Healing Home</h4>
                                             </div>
                                         </div>
                                     </Link>
@@ -243,21 +247,26 @@ const PortFolioBranding = () => {
                                             <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
                                                 <div >
                                                     <div className="PortraitImgOne ">
-                                                        <img className="h-full w-full" src="/pFive.png" alt="" />
+                                                        <img className="h-full w-full" src="/public/imageTwo.png" alt="" />
                                                     </div>
                                                     <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                                                         <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
+<<<<<<< HEAD
                                                             {/* <h5 className="overlayText">View Website</h5> */}
+=======
+                                                            <h5 className="overlayText">View More</h5>
+>>>>>>> 5a011d6c2deb210751a8d71517216fb8e52b4a30
                                                             <p><FaArrowRightLong></FaArrowRightLong></p>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4>
+                                                <h4 className="potraitBottomText rounded-[15px] text-center">Rondo ADS</h4>
                                             </div>
                                         </div>
                                     </Link>
 
                                     {/* ==========card Three ====== */}
+<<<<<<< HEAD
                                     <Link to="/InduvisualBrandingThree">
                                         <div className="relative cursor-pointer">
                                             <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
@@ -270,10 +279,26 @@ const PortFolioBranding = () => {
                                                             {/* <h5 className="overlayText">View Website</h5> */}
                                                             <p><FaArrowRightLong></FaArrowRightLong></p>
                                                         </div>
+=======
+                                    <div className="relative cursor-pointer">
+                                        <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
+                                            <div >
+                                                <div className="PortraitImgOne ">
+                                                    <img className="h-full w-full" src="/public/imageThree.png" alt="" />
+                                                </div>
+                                                <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                                                    <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
+                                                        <h5 className="overlayText">View More</h5>
+                                                        <p><FaArrowRightLong></FaArrowRightLong></p>
+>>>>>>> 5a011d6c2deb210751a8d71517216fb8e52b4a30
                                                     </div>
                                                 </div>
                                                 <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4>
                                             </div>
+<<<<<<< HEAD
+=======
+                                            <h4 className="potraitBottomText rounded-[15px] text-center">Wellbeing Care</h4>
+>>>>>>> 5a011d6c2deb210751a8d71517216fb8e52b4a30
                                         </div>
                                     </Link>
 

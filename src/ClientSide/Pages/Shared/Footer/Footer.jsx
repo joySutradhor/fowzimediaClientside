@@ -77,7 +77,8 @@ const Footer = () => {
                 </div>
             </div>
                 <div className="xl:py-[50px] 2xl:py-[50px] py-[20px] border-t text-white text-center w-full">
-                    <p>Designed and Developed by <Link to="https://www.fowzimedia.com" target="_blank" className="font-glaCailBold hover:underline">Fowzi Media.</Link> Copyright © Fowzi Media. All rights reserved.</p>
+                    {/* <p>Designed and Developed by <Link to="https://www.fowzimedia.com" target="_blank" className="font-glaCailBold hover:underline">Fowzi Media.</Link> Copyright © Fowzi Media. All rights reserved.</p> */}
+                    <p>Designed and Developed by <Link to="https://www.fowzimedia.com" target="_blank" className="font-glaCailBold hover:underline">Fowzi Media. </Link>© Fowzi Media. All rights reserved.</p>
                 </div>
         </Element>
     );
