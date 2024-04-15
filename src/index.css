@@ -856,10 +856,10 @@
 
   .potraitBottomText{
     @apply
-    2xl:text-[40px] 2xl:leading-[40px] 2xl:py-[40px]
-    xl:text-[35px] xl:leading-[35.97px] xl:py-[30px] 
-    lg:text-[25px] lg:leading-[25px] lg:py-[25px]
-    md:text-[25px] md:leading-[25px] md:py-[25px] 
+    2xl:text-[30px] 2xl:leading-[40px] 2xl:py-[40px]
+    xl:text-[30px] xl:leading-[35.97px] xl:py-[30px] 
+    lg:text-[20px] lg:leading-[25px] lg:py-[25px]
+    md:text-[20px] md:leading-[25px] md:py-[25px] 
     text-[20px] leading-[20px] py-[20px]
 
    /* --------------Common Styles -------------- */
