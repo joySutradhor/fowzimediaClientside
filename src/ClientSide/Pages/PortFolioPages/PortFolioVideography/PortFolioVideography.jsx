@@ -185,7 +185,7 @@ const PortFolioVideography = () => {
 
                             relative group">
 
-                                <img src="/videoLeft1.jpg" className="w-full h-full object-cover xl:rounded-[25px] lg:rounded-[25px] md:rounded-[25px] rounded-[25px] " alt="" />
+                                <img src="/videoR1.png" className="w-full h-full object-cover xl:rounded-[25px] lg:rounded-[25px] md:rounded-[25px] rounded-[25px] " alt="" />
                              
 
 
@@ -214,7 +214,7 @@ const PortFolioVideography = () => {
 
                             relative group">
 
-                                <img src="/videoLeft2.png" className="w-full h-full object-cover xl:rounded-[25px]" alt="" />
+                                <img src="/videoR2.png" className="w-full h-full object-cover xl:rounded-[25px]" alt="" />
 
 
                                 <div className="w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
@@ -243,7 +243,7 @@ const PortFolioVideography = () => {
 
                             relative group">
 
-                                <img src="/videoLeft3.png" className="w-full h-full object-cover xl:rounded-[25px]" alt="" />
+                                <img src="/videoR3.png" className="w-full h-full object-cover xl:rounded-[25px]" alt="" />
 
 
                                 <div className="w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
@@ -275,7 +275,7 @@ const PortFolioVideography = () => {
 
                             relative group">
 
-                                <img src="/videoGraphyRight1.png" className="w-full h-full object-cover xl:rounded-[25px]" alt="" />
+                                <img src="/videoL1.png" className="w-full h-full object-cover xl:rounded-[25px]" alt="" />
 
 
                                 <div className="w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
