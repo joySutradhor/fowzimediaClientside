@@ -37,15 +37,15 @@ const Footer = () => {
                         font-glacialBase  ">1729 N 2nd St Studio 204A,Minneapolis, MN 55411</p>
                         <p className="footerEmailPhone  xl:mt-[20px] 2xl:mt-[25px] mt-[15px]">hello@fowzimedia.com</p>
                         <p className="footerEmailPhone xl:mt-[10px] 2xl:mt-[10px] mt-[5px]">Tel: (612)466-4688</p>
-                        <p className="footerEmailPhone xl:mt-[20px] 2xl:mt-[25px] mt-[15px]">Socail Media </p>
+                        <p className="footerEmailPhone xl:mt-[20px] 2xl:mt-[25px] mt-[15px]">Social Media </p>
 
                         {/*-------------- footer Socail icons---------  */}
                         <div className="flex 2xl:pt-[15px] 2xl:pb-[50px] xl:pt-[9.41px] xl:pb-[40px] 
                         pt-[10px] pb-[20px]
                         cursor-pointer">
-                            <Link><p> <FaFacebookF className="2xl:w-[21.65px] 2xl:h-[45.2px] 2xl:mr-[23px] xl:w-[12.82px] xl:h-[27.25px] xl:mr-[20.09px] mr-[5px]" ></FaFacebookF> </p></Link>
-                            <Link><p><IoLogoInstagram className="2xl:w-[42.57px] 2xl:h-[41.77px] 2xl:mr-[20px] xl:w-[25.59px] xl:h-[25.11px] xl:mr-[19.23px] mr-[5px]" ></IoLogoInstagram></p></Link>
-                            <Link> <p><PiYoutubeLogoBold className="2xl:w-[58.07px] 2xl:h-[48.31px] xl:w-[35.26px] xl:h-[23.24px]" ></PiYoutubeLogoBold></p></Link>
+                            <Link to='https://www.facebook.com/fowzimedia' target="_blank"><p> <FaFacebookF className="2xl:w-[21.65px] 2xl:h-[45.2px] 2xl:mr-[23px] xl:w-[12.82px] xl:h-[27.25px] xl:mr-[20.09px] mr-[5px]" ></FaFacebookF> </p></Link>
+                            <Link to='https://www.instagram.com/fowzimedia/' target="_blank"><p><IoLogoInstagram className="2xl:w-[42.57px] 2xl:h-[41.77px] 2xl:mr-[20px] xl:w-[25.59px] xl:h-[25.11px] xl:mr-[19.23px] mr-[5px]" ></IoLogoInstagram></p></Link>
+                            <Link to='https://www.youtube.com/@husseinnoor' target="_blank"> <p><PiYoutubeLogoBold className="2xl:w-[58.07px] 2xl:h-[48.31px] xl:w-[35.26px] xl:h-[23.24px]" ></PiYoutubeLogoBold></p></Link>
                         </div>
 
                     </div>
@@ -67,9 +67,10 @@ const Footer = () => {
                     </div>
                     <div className="ml-[50px] md:ml-0 lg:ml-0 xl:ml-0 2xl:ml-0">
                         <h3 className="footerHeading">Opening Hours</h3>
-                        <p className="footerListItems">Saturday-Friday <br /> 9am - 5pm</p>
-                        <p className="footerListItems">Weekend</p>
-                        <p className="footerListItems">Closed</p>
+                        <p className="footerListItems">Monday - Thursday <br /> 9am - 6pm</p>
+                        <p className="footerListItems">Friday <br /> 9am - 12.30pm</p>
+                        <p className="footerListItems">Weekend Closed</p>
+                        {/* <p className="footerListItems">Closed</p> */}
 
                     </div>
 

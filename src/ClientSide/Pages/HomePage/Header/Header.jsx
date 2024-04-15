@@ -9,7 +9,7 @@ import { RxCross1 } from "react-icons/rx";
 
 import { useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
-import { Link as RouterLink } from 'react-router-dom';
+import { Link, Link as RouterLink } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 
 
@@ -117,7 +117,9 @@ const Header = () => {
                         lg:mr-[15px] lg:w-[12px] lg:h-[25px]
                         md:mr-[10px] md:w-[10px] md:h-[20px]
                         cursor-pointer">
+                            <Link to='https://www.facebook.com/fowzimedia' target="_blank">
                                 <img className="w-full h-full " src={fb} alt="" />
+                            </Link>
                             </div>
 
                             {/* -------instragram ---------- */}
@@ -128,7 +130,9 @@ const Header = () => {
                         md:w-[20px] md:h-[19px] md:mr-[10px]
 
                         cursor-pointer">
+                            <Link to='https://www.instagram.com/fowzimedia/' target="_blank">
                                 <img className=" h-full w-full " src={instra} alt="" />
+                            </Link>
                             </div>
                             {/* -------Youtube ---------- */}
                             <div className="
@@ -138,7 +142,9 @@ const Header = () => {
                         md:h-[20px] md:w-[20px]
 
                         cursor-pointer">
+                            <Link to='https://www.youtube.com/@husseinnoor' target="_blank">
                                 <img className=" w-full h-full object-cover" src={youtube} alt="" />
+                            </Link>
                             </div>
                         </div>
                     </div>

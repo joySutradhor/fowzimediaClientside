@@ -27,7 +27,7 @@ const OurServices = () => {
     },
 
     {
-      heading: "WebSite",
+      heading: "Website",
       description: "We specialize in building user-friendly websites that captivate.",
       imgSrc: "https://i.ibb.co/1z3bmLj/aboutUs.png",
       icon: <FaCode className="2xl:text-[27px] xl:text-[22px]" />,
@@ -36,7 +36,7 @@ const OurServices = () => {
 
 
     {
-      heading: "videoGraphy",
+      heading: "Videography",
       description: "For over a decade, we've been dedicated to delivering captivating full-service videography, telling your story with style.",
       imgSrc: "https://i.ibb.co/1z3bmLj/aboutUs.png",
       icon: <ImVideoCamera className="2xl:text-[27px] xl:text-[22px]" />,

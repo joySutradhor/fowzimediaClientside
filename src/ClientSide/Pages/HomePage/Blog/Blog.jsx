@@ -15,7 +15,7 @@ const Blog = () => {
             <div className="leftRight 2xl:pb-[200px] xl:pb-[180px] lg:pb-[100px] md:pb-[50px] pb-[10px] ">
                 <h2 className="titleSubHeading">Case Studies</h2>
                 <div className="md:flex lg:flex xl:flex 2xl:flex   justify-between ">
-                    <Link >
+                    <Link to='#' target="_blank">
                         <div
 
                         // 2xl:bg-[url('/largeBorder.png')] xl:bg-[url('/mdBlogBorder.png')] 
@@ -34,7 +34,7 @@ const Blog = () => {
                                 xl:px-[11px] xl:pt-[19px] xl:pb-[19px]
                                 px-[5px] pt-[10px] pb-[10px]
                                 flex justify-between items-center">
-                                <div className="flex items-center">
+                                {/* <div className="flex items-center">
                                     <div>
                                         <img className="xl:h-[25px] xl:w-[25px] h-[30px] w-[30px] object-cover" src={profile} alt="" />
                                     </div>
@@ -45,7 +45,7 @@ const Blog = () => {
                                 </div>
                                 <div>
                                     <p><BsThreeDotsVertical className="text-white"></BsThreeDotsVertical></p>
-                                </div>
+                                </div> */}
                             </div>
                             <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
                             <p className="blogPara">
@@ -56,7 +56,7 @@ const Blog = () => {
                     </Link>
 
                     {/* card two */}
-                    <Link >
+                    <Link to='#' target="_blank">
                     <div
                             className="   2xl:w-[494px]    2xl:mr-[55px] 2xl:mb-0
                             xl:w-[368.06px]  xl:mb-0
@@ -73,7 +73,7 @@ const Blog = () => {
                                 xl:px-[11px] xl:pt-[19px] xl:pb-[19px]
                                 px-[5px] pt-[10px] pb-[10px]
                                 flex justify-between items-center">
-                                <div className="flex items-center">
+                                {/* <div className="flex items-center">
                                     <div>
                                         <img className="xl:h-[25px] xl:w-[25px] h-[30px] w-[30px] object-cover" src={profile} alt="" />
                                     </div>
@@ -84,7 +84,7 @@ const Blog = () => {
                                 </div>
                                 <div>
                                     <p><BsThreeDotsVertical className="text-white"></BsThreeDotsVertical></p>
-                                </div>
+                                </div> */}
                             </div>
                             <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
                             <p className="blogPara">
@@ -95,7 +95,7 @@ const Blog = () => {
                     </Link>
 
                     {/* card three */}
-                    <Link >
+                    <Link to='#' target="_blank">
                     <div
                             className="   2xl:w-[494px]    2xl:mr-[55px] 2xl:mb-0
                             xl:w-[368.06px]  xl:mb-0
@@ -110,7 +110,7 @@ const Blog = () => {
                                 xl:px-[11px] xl:pt-[19px] xl:pb-[19px]
                                 px-[5px] pt-[10px] pb-[10px]
                                 flex justify-between items-center">
-                                <div className="flex items-center">
+                                {/* <div className="flex items-center">
                                     <div>
                                         <img className="xl:h-[25px] xl:w-[25px] h-[30px] w-[30px] object-cover" src={profile} alt="" />
                                     </div>
@@ -121,7 +121,7 @@ const Blog = () => {
                                 </div>
                                 <div>
                                     <p><BsThreeDotsVertical className="text-white"></BsThreeDotsVertical></p>
-                                </div>
+                                </div> */}
                             </div>
                             <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
                             <p className="blogPara">

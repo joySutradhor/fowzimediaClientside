@@ -44,7 +44,9 @@ const PortFolio = () => {
                     <Fade direction="left" delay={100} duration={600}>
                         <div className="relative   ">
                             <div className="2xl:h-[778px]  2xl:w-[405px] xl:h-[450.18px] overflow-hidden ">
-                                <img className=" rounded-[2px] h-full w-full object-cover hover:scale-125 duration-1000" src={camera2} alt="" />
+                                {/* <img className=" rounded-[2px] h-full w-full object-cover hover:scale-125 duration-1000" src={camera2} alt="" /> */}
+                                <img className=" rounded-[2px] h-full w-full object-cover hover:scale-125 duration-1000" src={camera4} alt="" />
+
                             </div>
                             <p className="porfolioText">Videography</p>
                         </div>

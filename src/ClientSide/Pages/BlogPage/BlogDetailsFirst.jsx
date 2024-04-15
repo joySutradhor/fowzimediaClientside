@@ -4,6 +4,7 @@ import { PiShareFatDuotone, PiYoutubeLogoBold } from "react-icons/pi";
 import { MdOutlineFavoriteBorder } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
+import { useState } from "react";
 
 
 
@@ -11,13 +12,14 @@ import { IoLogoInstagram } from "react-icons/io5";
 
 
 const BlogDetailsFirst = () => {
+    
     return (
         <div>
             <div className="bg-[url('/blogDetailsImg1.png')] bg-no-repeat bg-center  w-[1920px] 2xl:h-[905px] xl:w-full xl:h-[100dvh]">
                 <div className="flex justify-between 2xl:px-[150px] 2xl:pt-[50px] xl:px-[60px] xl:pt-[50px]">
                     <Link to="/"><img className="headerLogo" src="/headerLogo.png" alt="" /></Link>
                     <div className="">
-                        <button className="headerHireUsBtn">Hire us</button>
+                        <button className="headerHireUsBtn" >Hire us</button>
                     </div>
                 </div>
 
