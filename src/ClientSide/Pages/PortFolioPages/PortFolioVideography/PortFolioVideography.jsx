@@ -168,10 +168,10 @@ const PortFolioVideography = () => {
                 md:px-[50px] md:pt-[40px] md:pb-[100px]
                 px-[20px] pt-[40px] pb-[60px]
                  text-white">
-                    <p className="pageTitle">Home . Portfolio . VideoGraphy</p>
+                    <p className="pageTitle">Home . Portfolio . Videography</p>
                     <div className="md:flex lg:flex xl:flex 2xl:flex justify-between w-full ">
                         <div className="2xl:w-[776px] xl:w-[578px] lg:w-[48%] md:w-[48%]">
-                            <h2 className="titleSubHeading ">VideoGraphy</h2>
+                            <h2 className="titleSubHeading ">Videography</h2>
 
                             <p className="2xl:text-[18px] 2xl:leading-[21.58px] 2xl:pb-[50px]
                             xl:text-[16px] xl:leading-[19.18px] xl:pb-[40px]
@@ -185,7 +185,7 @@ const PortFolioVideography = () => {
 
                             relative group">
 
-                                <img src="/videoR1.png" className="w-full h-full object-cover xl:rounded-[25px] lg:rounded-[25px] md:rounded-[25px] rounded-[25px] " alt="" />
+                                <img src="/videoL1.png" className="w-full h-full object-cover xl:rounded-[25px] lg:rounded-[25px] md:rounded-[25px] rounded-[25px] " alt="" />
                              
 
 
@@ -199,7 +199,7 @@ const PortFolioVideography = () => {
                                     bg-white bg-opacity-30 flex justify-between 
                                     ">
                                         <div>
-                                            <Link to="/PortFolioVideoGraphyFirst"><p className="2xl:text-[25px] 2xl:leading-[30px] xl:text-[20px] xl:leading-[24px] cursor-pointer">Play Now</p></Link>
+                                            <Link to="/PortFolioVideoGraphyFirst"><p className="2xl:text-[25px] 2xl:leading-[30px] xl:text-[20px] xl:leading-[24px] cursor-pointer">View More</p></Link>
                                         </div>
                                         <div className="flex ">
                                             <Link to="/PortFolioVideoGraphyFirst" ><p><FaArrowRightLong className="text-[28px]  cursor-pointer"></FaArrowRightLong></p></Link>
@@ -211,6 +211,97 @@ const PortFolioVideography = () => {
                             {/* ---------------left two card --------------- */}
                             <div className=" 2xl:mb-[68px] 2xl:w-[776px] 2xl:h-[675px]  
                             xl:w-full xl:h-[502px] xl:mb-[50px] lg:mb-[40px] md:mb-[25px] mb-[20px]
+
+                            relative group">
+
+                                <img src="/videoL2.png" className="w-full h-full object-cover xl:rounded-[25px]" alt="" />
+
+
+                                <div className="w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                                    <div className=" 
+                                    2xl:w-[776px] 2xl:py-[20px]  2xl:rounded-b-[50px] 2xl:px-[40px] 
+                                    xl:w-[578px] xl:rounded-b-[25px] xl:px-[30px] xl:py-[10px]
+                                    lg:rounded-b-[25px] lg:px-[20px] lg:py-[10px]
+                                    md:rounded-b-[25px] md:px-[20px] md:py-[10px]   rounded-b-[25px] px-[20px] py-[10px]
+                                    
+                                    bg-white bg-opacity-30 flex justify-between 
+                                    ">
+                                        <div>
+                                            <Link to="/PortFolioVideographySBD"><p className="2xl:text-[25px] 2xl:leading-[30px] xl:text-[20px] xl:leading-[24px] cursor-pointer">View More</p></Link>
+                                        </div>
+                                        <div className="flex ">
+                                            <Link to="/PortFolioVideographySBD" ><p><FaArrowRightLong className="text-[28px]  cursor-pointer"></FaArrowRightLong></p></Link>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            {/* ---------------left three card --------------- */}
+                            <div className=" 2xl:mb-[68px] 2xl:w-[776px] 2xl:h-[675px]  
+                            xl:w-full xl:h-[502px] mb-[20px] md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0
+
+                            relative group">
+
+                                <img src="/videoL3.png" className="w-full h-full object-cover xl:rounded-[25px]" alt="" />
+
+
+                                <div className="w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                                    <div className=" 
+                                    2xl:w-[776px] 2xl:py-[20px]  2xl:rounded-b-[50px] 2xl:px-[40px] 
+                                    xl:w-[578px] xl:rounded-b-[25px] xl:px-[30px] xl:py-[10px]
+                                    lg:rounded-b-[25px] lg:px-[20px] lg:py-[10px]
+                                    md:rounded-b-[25px] md:px-[20px] md:py-[10px]   rounded-b-[25px] px-[20px] py-[10px]
+                                    
+                                    bg-white bg-opacity-30 flex justify-between 
+                                    ">
+                                        <div>
+                                            <Link to="/PortFolioVideoTeo"><p className="2xl:text-[25px] 2xl:leading-[30px] xl:text-[20px] xl:leading-[24px] cursor-pointer">View More</p></Link>
+                                        </div>
+                                        <div className="flex ">
+                                            <Link to="/PortFolioVideoTeo" ><p><FaArrowRightLong className="text-[28px]  cursor-pointer"></FaArrowRightLong></p></Link>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        {/* ----------------------right Side content --------------------------------- */}
+                        <div className="2xl:ml-[68px] lg:w-[48%] md:w-[48%]">
+                        <div className=" 2xl:mb-[68px] 2xl:w-[776px] 2xl:h-[1053px]  
+                            xl:w-[578px] xl:h-[814px] xl:mb-[50px] lg:mb-[40px] md:mb-[25px] mb-[20px]
+
+                            relative group">
+
+                                <img src="/videoR1.png" className="w-full h-full object-cover xl:rounded-[25px]" alt="" />
+
+
+                                <div className="w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
+                                    <div className=" 
+                                    2xl:w-[776px] 2xl:py-[20px]  2xl:rounded-b-[50px] 2xl:px-[40px] 
+                                    xl:w-[578px] xl:rounded-b-[25px] xl:px-[30px] xl:py-[10px]
+                                    lg:rounded-b-[25px] lg:px-[20px] lg:py-[10px]
+                                    md:rounded-b-[25px] md:px-[20px] md:py-[10px]   rounded-b-[25px] px-[20px] py-[10px]
+                                    
+                                    bg-white bg-opacity-30 flex justify-between 
+                                    ">
+                                        <div>
+                                            <Link to="/PortFolioVideoaJnnah"><p className="2xl:text-[25px] 2xl:leading-[30px] xl:text-[20px] xl:leading-[24px] cursor-pointer">View More</p></Link>
+                                        </div>
+                                        <div className="flex ">
+                                            <Link to="/PortFolioVideoaJnnah" ><p><FaArrowRightLong className="text-[28px]  cursor-pointer"></FaArrowRightLong></p></Link>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* ----------------Right card two -------------------- */}
+                           
+                            <div className=" 2xl:mb-[68px] 2xl:w-[776px] 2xl:h-[675px]  
+                            xl:w-[578px] xl:h-[502px] xl:mb-[50px] lg:mb-[40px] md:mb-[25px] mb-[20px]
 
                             relative group">
 
@@ -227,101 +318,10 @@ const PortFolioVideography = () => {
                                     bg-white bg-opacity-30 flex justify-between 
                                     ">
                                         <div>
-                                            <Link to="/PortFolioVideoGraphyFirst"><p className="2xl:text-[25px] 2xl:leading-[30px] xl:text-[20px] xl:leading-[24px] cursor-pointer">Play Now</p></Link>
+                                            <Link to="/PortFolioVideominneapolis"><p className="2xl:text-[25px] 2xl:leading-[30px] xl:text-[20px] xl:leading-[24px] cursor-pointer">View More</p></Link>
                                         </div>
                                         <div className="flex ">
-                                            <Link to="/PortFolioVideoGraphyFirst" ><p><FaArrowRightLong className="text-[28px]  cursor-pointer"></FaArrowRightLong></p></Link>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            {/* ---------------left three card --------------- */}
-                            <div className=" 2xl:mb-[68px] 2xl:w-[776px] 2xl:h-[675px]  
-                            xl:w-full xl:h-[502px] mb-[20px] md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0
-
-                            relative group">
-
-                                <img src="/videoR3.png" className="w-full h-full object-cover xl:rounded-[25px]" alt="" />
-
-
-                                <div className="w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
-                                    <div className=" 
-                                    2xl:w-[776px] 2xl:py-[20px]  2xl:rounded-b-[50px] 2xl:px-[40px] 
-                                    xl:w-[578px] xl:rounded-b-[25px] xl:px-[30px] xl:py-[10px]
-                                    lg:rounded-b-[25px] lg:px-[20px] lg:py-[10px]
-                                    md:rounded-b-[25px] md:px-[20px] md:py-[10px]   rounded-b-[25px] px-[20px] py-[10px]
-                                    
-                                    bg-white bg-opacity-30 flex justify-between 
-                                    ">
-                                        <div>
-                                            <Link to="/PortFolioVideoGraphyFirst"><p className="2xl:text-[25px] 2xl:leading-[30px] xl:text-[20px] xl:leading-[24px] cursor-pointer">Play Now</p></Link>
-                                        </div>
-                                        <div className="flex ">
-                                            <Link to="/PortFolioVideoGraphyFirst" ><p><FaArrowRightLong className="text-[28px]  cursor-pointer"></FaArrowRightLong></p></Link>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        {/* ----------------------right Side content --------------------------------- */}
-                        <div className="2xl:ml-[68px] lg:w-[48%] md:w-[48%]">
-                        <div className=" 2xl:mb-[68px] 2xl:w-[776px] 2xl:h-[1053px]  
-                            xl:w-[578px] xl:h-[814px] xl:mb-[50px] lg:mb-[40px] md:mb-[25px] mb-[20px]
-
-                            relative group">
-
-                                <img src="/videoL1.png" className="w-full h-full object-cover xl:rounded-[25px]" alt="" />
-
-
-                                <div className="w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
-                                    <div className=" 
-                                    2xl:w-[776px] 2xl:py-[20px]  2xl:rounded-b-[50px] 2xl:px-[40px] 
-                                    xl:w-[578px] xl:rounded-b-[25px] xl:px-[30px] xl:py-[10px]
-                                    lg:rounded-b-[25px] lg:px-[20px] lg:py-[10px]
-                                    md:rounded-b-[25px] md:px-[20px] md:py-[10px]   rounded-b-[25px] px-[20px] py-[10px]
-                                    
-                                    bg-white bg-opacity-30 flex justify-between 
-                                    ">
-                                        <div>
-                                            <Link to="/PortFolioVideoGraphyFirst"><p className="2xl:text-[25px] 2xl:leading-[30px] xl:text-[20px] xl:leading-[24px] cursor-pointer">Play Now</p></Link>
-                                        </div>
-                                        <div className="flex ">
-                                            <Link to="/PortFolioVideoGraphyFirst" ><p><FaArrowRightLong className="text-[28px]  cursor-pointer"></FaArrowRightLong></p></Link>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            {/* ----------------Right card two -------------------- */}
-                           
-                            <div className=" 2xl:mb-[68px] 2xl:w-[776px] 2xl:h-[675px]  
-                            xl:w-[578px] xl:h-[502px] xl:mb-[50px] lg:mb-[40px] md:mb-[25px] mb-[20px]
-
-                            relative group">
-
-                                <img src="/videoGraphyRight2.png" className="w-full h-full object-cover xl:rounded-[25px]" alt="" />
-
-
-                                <div className="w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
-                                    <div className=" 
-                                    2xl:w-[776px] 2xl:py-[20px]  2xl:rounded-b-[50px] 2xl:px-[40px] 
-                                    xl:w-[578px] xl:rounded-b-[25px] xl:px-[30px] xl:py-[10px]
-                                    lg:rounded-b-[25px] lg:px-[20px] lg:py-[10px]
-                                    md:rounded-b-[25px] md:px-[20px] md:py-[10px]   rounded-b-[25px] px-[20px] py-[10px]
-                                    
-                                    bg-white bg-opacity-30 flex justify-between 
-                                    ">
-                                        <div>
-                                            <Link to="/PortFolioVideoGraphyFirst"><p className="2xl:text-[25px] 2xl:leading-[30px] xl:text-[20px] xl:leading-[24px] cursor-pointer">Play Now</p></Link>
-                                        </div>
-                                        <div className="flex ">
-                                            <Link to="/PortFolioVideoGraphyFirst" ><p><FaArrowRightLong className="text-[28px]  cursor-pointer"></FaArrowRightLong></p></Link>
+                                            <Link to="/PortFolioVideominneapolis" ><p><FaArrowRightLong className="text-[28px]  cursor-pointer"></FaArrowRightLong></p></Link>
 
                                         </div>
                                     </div>
@@ -336,7 +336,7 @@ const PortFolioVideography = () => {
 
                             relative group">
 
-                                <img src="/videoGraphyRight3.png" className="w-full h-full object-cover xl:rounded-[25px] md:rounded-[25px]" alt="" />
+                                <img src="/videoR3.png" className="w-full h-full object-cover xl:rounded-[25px] md:rounded-[25px]" alt="" />
 
 
                                 <div className="w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
@@ -349,10 +349,10 @@ const PortFolioVideography = () => {
                                     bg-white bg-opacity-30 flex justify-between 
                                     ">
                                         <div>
-                                            <Link to="/PortFolioVideoGraphyFirst"><p className="2xl:text-[25px] 2xl:leading-[30px] xl:text-[20px] xl:leading-[24px] cursor-pointer">Play Now</p></Link>
+                                            <Link to="/PortFolioVideoCOFMHD"><p className="2xl:text-[25px] 2xl:leading-[30px] xl:text-[20px] xl:leading-[24px] cursor-pointer">View More</p></Link>
                                         </div>
                                         <div className="flex ">
-                                            <Link to="/PortFolioVideoGraphyFirst" ><p><FaArrowRightLong className="text-[28px]  cursor-pointer"></FaArrowRightLong></p></Link>
+                                            <Link to="/PortFolioVideoCOFMHD" ><p><FaArrowRightLong className="text-[28px]  cursor-pointer"></FaArrowRightLong></p></Link>
 
                                         </div>
                                     </div>

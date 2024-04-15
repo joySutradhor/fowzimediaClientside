@@ -16,7 +16,7 @@ import { useState } from "react";
 
 
 
-const PortFolioVideographyFirst = () => {
+const PortFolioVideoCOFMHD = () => {
 
     const [menuOpen, setMenuOpen] = useState(false);
 
@@ -173,17 +173,9 @@ const PortFolioVideographyFirst = () => {
                             {/* <img className="xl:h-[500px] xl:w-full object-cover xl:rounded-[25px]" src="/videoGraphyDetails.png" alt="" /> */}
 
                             <div className="w-[100%] xl:h-[500px] 2xl:h-[700px] lg:h-[400px] md:h-[300px]">
-                                <iframe title="vimeo-player" src="https://player.vimeo.com/video/931004763?h=905aae5402" className="w-full h-full" frameBorder="0" allowfullscreen></iframe>
+                                <iframe title="vimeo-player" src="https://player.vimeo.com/video/298952346?h=cd402cb70e" className="w-full h-full" frameBorder="0" allowfullscreen></iframe>
                             </div>
-
-
-
-                            {/* <div className="w-full">
-                                <iframe title="vimeo-player" src="https://player.vimeo.com/video/839533566?h=cc7f784bde" className="w-full" frameborder="0" allowfullscreen></iframe>
-                            </div> */}
-
-
-
+ 
 
                             <div className="2xl:mt-[60px] xl:mt-[40px] lg:mt-[30px] md:pt-[20px] pt-[20px]">
                                 <p className="2xl:text-[18px] 2xl:leading-[21.58px] 
@@ -209,4 +201,4 @@ const PortFolioVideographyFirst = () => {
     );
 };
 
-export default PortFolioVideographyFirst;
+export default PortFolioVideoCOFMHD;

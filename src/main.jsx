@@ -24,6 +24,11 @@ import BlogMainPage from './ClientSide/Pages/BlogMainPage/BlogMainPage';
 import SinglePortFolioBranding from './ClientSide/Pages/PortFolioPages/PortFolioBranding/SinglePortFolioBranding.jsx';
 import InduvisualBrandingTwo from './ClientSide/Pages/PortFolioPages/PortFolioBranding/InduvisualBrandingTwo.jsx';
 import InduvisualBrandingThree from './ClientSide/Pages/PortFolioPages/PortFolioBranding/InduvisualBrandingThree.jsx';
+import PortFolioVideographySBD from './ClientSide/Pages/PortFolioPages/PortFolioVideography/PortFolioVideographySBD.jsx';
+import PortFolioVideoTeo from './ClientSide/Pages/PortFolioPages/PortFolioVideography/PortFolioVideoTeo.jsx';
+import PortFolioVideoaJnnah from './ClientSide/Pages/PortFolioPages/PortFolioVideography/PortFolioVideoaJnnah.jsx';
+import PortFolioVideominneapolis from './ClientSide/Pages/PortFolioPages/PortFolioVideography/PortFolioVideominneapolis.jsx';
+import PortFolioVideoCOFMHD from './ClientSide/Pages/PortFolioPages/PortFolioVideography/PortFolioVideoCOFMHD.jsx';
 
 
 const router = createBrowserRouter([
@@ -44,8 +49,8 @@ const router = createBrowserRouter([
   {
     path :"/videoGraphy",
     element: <VideoGraphy></VideoGraphy>
-  }
-  ,
+  },
+  
   
   {
     path :"/branding",
@@ -76,6 +81,27 @@ const router = createBrowserRouter([
   {
     path: "/PortFolioVideoGraphyFirst",
     element : <PortFolioVideographyFirst></PortFolioVideographyFirst>
+  },
+
+  {
+    path: "/PortFolioVideographySBD",
+    element : <PortFolioVideographySBD></PortFolioVideographySBD>
+  },
+  {
+    path: "/PortFolioVideoTeo",
+    element : <PortFolioVideoTeo></PortFolioVideoTeo>
+  },
+  {
+    path: "/PortFolioVideoaJnnah",
+    element : <PortFolioVideoaJnnah></PortFolioVideoaJnnah>
+  },
+  {
+    path: "/PortFolioVideominneapolis",
+    element : <PortFolioVideominneapolis></PortFolioVideominneapolis>
+  },
+  {
+    path: "/PortFolioVideoCOFMHD",
+    element : <PortFolioVideoCOFMHD></PortFolioVideoCOFMHD>
   },
 
   {
