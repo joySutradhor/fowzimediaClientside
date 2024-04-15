@@ -5,7 +5,7 @@ import camera2 from "/camera2.png"
 import camera3 from "/camera3.png"
 import camera4 from "/camera4.png"
 import { Link } from "react-router-dom";
-import {  Element } from 'react-scroll';
+import { Element } from 'react-scroll';
 
 const PortFolio = () => {
     return (
@@ -13,14 +13,30 @@ const PortFolio = () => {
             <h2 className="titleSubHeading">Portfolio</h2>
             <div className="grid grid-cols-4">
 
-                {/* --------------- Photography ----------------- */}
-                <Link to="/PortFolioPhotography">
-                    <div className="relative    ">
-                        <div className="2xl:h-[778px]  2xl:w-[405px] xl:h-[450.18px]  overflow-hidden ">
-                            <img className=" rounded-[2px] h-full w-full object-cover hover:scale-125 duration-1000" src={camera1} alt="" />
+                {/* ---------------- Branding ------------------------ */}
+                <Link to="/PortFolioBranding">
+                    <Fade direction="left" duration={600} delay={650}>
+                        <div className="relative   ">
+                            <div className="2xl:h-[778px]  2xl:w-[405px] xl:h-[450.18px] overflow-hidden ">
+                                <img className=" rounded-[2px] h-full w-full object-cover hover:scale-125 duration-1000" src={camera3} alt="" />
+                            </div>
+                            <p className="porfolioText">Branding</p>
                         </div>
-                        <p className="porfolioText">PhotoGraphy</p>
-                    </div>
+                    </Fade>
+                </Link>
+
+
+                {/* ---------------- Web Design ------------------------ */}
+                <Link to="/PortFolioWebDesign">
+                    <Fade direction="left" duration={800} delay={1300}>
+                        <div className="relative  ">
+                            <div className="2xl:h-[778px]  2xl:w-[405px]  xl:h-[450.18px] overflow-hidden">
+                                <img className=" rounded-[2px] h-full w-full object-cover hover:scale-125 duration-1000" src={camera4} alt="" />
+                            </div>
+
+                            <p className="porfolioText">Web Design</p>
+                        </div>
+                    </Fade>
                 </Link>
 
                 {/* --------------- videoGraphy ----------------- */}
@@ -35,33 +51,24 @@ const PortFolio = () => {
                     </Fade>
                 </Link>
 
-                {/* ---------------- Branding ------------------------ */}
-                <Link to="/PortFolioBranding">
-                    <Fade direction="left" duration={600} delay={650}>
-                        <div className="relative   ">
-                            <div className="2xl:h-[778px]  2xl:w-[405px] xl:h-[450.18px] overflow-hidden ">
-                                <img className=" rounded-[2px] h-full w-full object-cover hover:scale-125 duration-1000" src={camera3} alt="" />
-                            </div>
-                            <p className="porfolioText">Branding</p>
+                {/* --------------- Photography ----------------- */}
+                <Link to="/PortFolioPhotography">
+                    <div className="relative    ">
+                        <div className="2xl:h-[778px]  2xl:w-[405px] xl:h-[450.18px]  overflow-hidden ">
+                            <img className=" rounded-[2px] h-full w-full object-cover hover:scale-125 duration-1000" src={camera1} alt="" />
                         </div>
-                    </Fade>
+                        <p className="porfolioText">PhotoGraphy</p>
+                    </div>
                 </Link>
 
-                {/* ---------------- Web Design ------------------------ */}
-                <Link to="/PortFolioWebDesign">
-                    <Fade direction="left" duration={800} delay={1300}>
-                        <div className="relative  ">
-                            <div className="2xl:h-[778px]  2xl:w-[405px]  xl:h-[450.18px] overflow-hidden">
-                                <img className=" rounded-[2px] h-full w-full object-cover hover:scale-125 duration-1000" src={camera4} alt="" />
-                            </div>
-                           
-                            <p className="porfolioText">Web Design</p>
-                        </div>   
-                    </Fade>
-                </Link>
+
+
+
+
+
 
             </div>
-     
+
         </Element>
     );
 };

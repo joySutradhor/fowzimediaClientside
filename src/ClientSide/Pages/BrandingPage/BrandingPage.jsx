@@ -43,9 +43,9 @@ const BrandingPage = () => {
         md:h-[100dvh] 
         h-[70dvh] bg-top">
 
-            {/*----------------- header menu ------------------ */}
-            <div className='relative'>
-                <nav className=" 
+                {/*----------------- header menu ------------------ */}
+                <div className='relative'>
+                    <nav className=" 
             relative
             2xl:pl-[150px] 2xl:pr-[150px] 2xl:pt-[50px] 
             xl:pt-[50px] xl:pl-[60px] xl:pr-[60px] 
@@ -55,111 +55,111 @@ const BrandingPage = () => {
 
             flex justify-between items-center">
 
-                    {/* ----------Desktop Menu ---------- */}
-                    <div className="headerLogo">
-                        <Link to="/"><img className="w-full h-full cursor-pointer" src={headerLogo} alt="logo" /></Link>
-                    </div>
+                        {/* ----------Desktop Menu ---------- */}
+                        <div className="headerLogo">
+                            <Link to="/"><img className="w-full h-full cursor-pointer" src={headerLogo} alt="logo" /></Link>
+                        </div>
 
-                    {/*-------------- Desktop Header Menu --------------- */}
-                    <div className='hidden md:block lg:block xl:block 2xl:block'>
-                        <ul className="headMenuLeftRight  z-auto  ">
-                            <Link to="/"> <li className="desktopMenu   ">HOME</li> </Link>
-                            <Link to='/#our-services-home'  > <li className="desktopMenu">SERVICES</li> </Link>
-                            <Link to="aboutUsSection" smooth={true} duration={600} > <li className=" desktopMenu">ABOUT</li> </Link>
-                            <Link to="portfolio" smooth={true} duration={700}> <li className="desktopMenu ">PORTFOLIO</li> </Link>
-                            <Link to="blog" smooth={true} duration={800}> <li className=" desktopMenu">BLOG</li> </Link>
-                            <Link to='footer' smooth={true} duration={1000}> <li className="cursor-pointer"> CONTACT</li> </Link>
-                        </ul>
-                    </div>
-                    {/* -----------------------Mobile Header Menu ------------------  */}
+                        {/*-------------- Desktop Header Menu --------------- */}
+                        <div className='hidden md:block lg:block xl:block 2xl:block'>
+                            <ul className="headMenuLeftRight  z-auto  ">
+                                <Link to="/"> <li className="desktopMenu   ">HOME</li> </Link>
+                                <Link to='ourServices' smooth={true} duration={500} offset={-80}  > <li className="desktopMenu">SERVICES</li> </Link>
+                                <Link to="aboutUsSection" smooth={true} duration={600} offset={-80} > <li className=" desktopMenu">ABOUT</li> </Link>
+                                <Link to="portfolio" smooth={true} duration={700} offset={120}> <li className="desktopMenu ">PORTFOLIO</li> </Link>
+                                <Link to="blog" smooth={true} duration={800} offset={-80}> <li className=" desktopMenu">BLOG</li> </Link>
+                                <Link to='footer' smooth={true} duration={1000} offset={-80}> <li className="cursor-pointer"> CONTACT</li> </Link>
+                            </ul>
+                        </div>
+                        {/* -----------------------Mobile Header Menu ------------------  */}
 
 
-                    <div className="md:hidden lg:hidden xl:hidden 2xl:hidden">
-                        <button onClick={toggleMenu}><SlMenu className='text-[25px] text-white'></SlMenu></button>
-                        {menuOpen && (
-                            <div className=''>
-                                <div className={`mobile-menu ${menuOpen ? ' opacity-80' : ''}`}>
+                        <div className="md:hidden lg:hidden xl:hidden 2xl:hidden">
+                            <button onClick={toggleMenu}><SlMenu className='text-[25px] text-white'></SlMenu></button>
+                            {menuOpen && (
+                                <div className=''>
+                                    <div className={`mobile-menu ${menuOpen ? ' opacity-80' : ''}`}>
 
-                                    <div className='flex justify-between items-center px-[20px] pt-[30px] border-b  border-gray-600 pb-[30px]'>
-                                        <div>
-                                            <img className='headerLogoMobile' src={headerLogo} alt="" />
+                                        <div className='flex justify-between items-center px-[20px] pt-[30px] border-b  border-gray-600 pb-[30px]'>
+                                            <div>
+                                                <img className='headerLogoMobile' src={headerLogo} alt="" />
+                                            </div>
+                                            <div>
+                                                <RxCross1 onClick={closeMenu} className='text-[25px] hover:text-[#FF0101]'></RxCross1>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <RxCross1 onClick={closeMenu} className='text-[25px] hover:text-[#FF0101]'></RxCross1>
-                                        </div>
+                                        <ul className='menuParent'>
+                                            <Fade cascade duration={300}>
+                                                <Link to="/">
+                                                    <li>HOME</li>
+                                                </Link>
+                                                <Link to='OurServices' smooth={true} duration={500}>
+                                                    <li >SERVICES</li>
+                                                </Link>
+                                                <Link to="aboutUsSection" smooth={true} duration={600} >
+                                                    <li >ABOUT</li>
+                                                </Link>
+                                                <Link to="portfolio" smooth={true} duration={700}>
+                                                    <li >PORTFOLIO</li>
+                                                </Link>
+                                                <Link to="blog" smooth={true} duration={800}>
+                                                    <li >BLOG</li>
+                                                </Link>
+                                                <Link to='footer' smooth={true} duration={1000}>
+                                                    <li className="cursor-pointer"> CONTACT</li>
+                                                </Link>
+                                            </Fade>
+                                        </ul>
                                     </div>
-                                    <ul className='menuParent'>
-                                        <Fade cascade duration={300}>
-                                            <Link to="/">
-                                                <li>HOME</li>
-                                            </Link>
-                                            <Link to='OurServices' smooth={true} duration={500}>
-                                                <li >SERVICES</li>
-                                            </Link>
-                                            <Link to="aboutUsSection" smooth={true} duration={600} >
-                                                <li >ABOUT</li>
-                                            </Link>
-                                            <Link to="portfolio" smooth={true} duration={700}>
-                                                <li >PORTFOLIO</li>
-                                            </Link>
-                                            <Link to="blog" smooth={true} duration={800}>
-                                                <li >BLOG</li>
-                                            </Link>
-                                            <Link to='footer' smooth={true} duration={1000}>
-                                                <li className="cursor-pointer"> CONTACT</li>
-                                            </Link>
-                                        </Fade>
-                                    </ul>
                                 </div>
-                            </div>
-                        )}
-                    </div>
+                            )}
+                        </div>
 
 
 
-                    {/* --------------DeskTop Socail Icons -------------- */}
-                    <div className="md:block lg:block  xl:block 2xl:block hidden">
-                        <div className="flex items-center">
+                        {/* --------------DeskTop Socail Icons -------------- */}
+                        <div className="md:block lg:block  xl:block 2xl:block hidden">
+                            <div className="flex items-center">
 
-                            {/* ----------Facebook ------ */}
-                            <div className="                       
+                                {/* ----------Facebook ------ */}
+                                <div className="                       
                         2xl:h-[27px]  2xl:w-[14px] 2xl:mr-[18.91px]
                         xl:mr-[17.91px] xl:w-[13px] xl:h-[25px]
                         lg:mr-[15px] lg:w-[12px] lg:h-[25px]
                         md:mr-[10px] md:w-[10px] md:h-[20px]
                         cursor-pointer">
-                                <img className="w-full h-full " src={fb} alt="" />
-                            </div>
+                                    <img className="w-full h-full " src={fb} alt="" />
+                                </div>
 
-                            {/* -------instragram ---------- */}
-                            <div className="
+                                {/* -------instragram ---------- */}
+                                <div className="
                         2xl:h-[25.11px] 2xl:w-[25.6px] 2xl:mr-[18.49px]                       
                         xl:w-[24.24px] xl:h-[23.78px] xl:mr-[17.51px]  
                         lg:w-[25px] lg:h-[22px] lg:mr-[15px]
                         md:w-[20px] md:h-[19px] md:mr-[10px]
 
                         cursor-pointer">
-                                <img className=" h-full w-full " src={instra} alt="" />
-                            </div>
-                            {/* -------Youtube ---------- */}
-                            <div className="
+                                    <img className=" h-full w-full " src={instra} alt="" />
+                                </div>
+                                {/* -------Youtube ---------- */}
+                                <div className="
                         2xl:h-[24px] 2xl:w-[36px] 
                         xl:h-[22.73px] xl:w-[34.09px]
                         lg:h-[22px] lg:w-[30px]
                         md:h-[20px] md:w-[20px]
 
                         cursor-pointer">
-                                <img className=" w-full h-full object-cover" src={youtube} alt="" />
+                                    <img className=" w-full h-full object-cover" src={youtube} alt="" />
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </nav>
+                    </nav>
+                </div>
+
+
+
+
             </div>
-
-            
-
-
-        </div>
 
 
             {/* ================ page body ================ */}
@@ -211,42 +211,54 @@ const BrandingPage = () => {
                     <h4 className="titleSubHeading">Our Process</h4>
                     <div className="processParent">
 
-                        <div className="brandingNumberParent">
-                            <div >
-                                <div className="brandingNumber" >01</div>
+                        <Fade delay={500} duration={500}>
+                            <div className="brandingNumberParent">
+                                <div >
+                                    <div className="brandingNumber" >01</div>
+                                </div>
+                                <div>
+                                    <h4 className="processHeading">Discovery :</h4>
+                                    <p className="processPara">Gain a deep understanding of your business, audience, and objective.</p>
+                                </div>
                             </div>
-                            <div>
-                                <h4 className="processHeading">Discovery :</h4>
-                                <p className="processPara">Gain a deep understanding of your business, audience, and objective.</p>
+                        </Fade>
+
+                        <Fade delay={800} duration={500} >
+                            <div className="brandingNumberParent">
+                                <div >
+                                    <div className="brandingNumber" >02</div>
+                                </div>
+                                <div>
+                                    <h4 className="processHeading">Strategy Development :</h4>
+                                    <p className="processPara">Develop a tailored brand strategy based on insights gathered.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="brandingNumberParent">
-                            <div >
-                                <div className="brandingNumber" >02</div>
+
+                        </Fade>
+
+                        <Fade delay={1100} duration={500}>
+                            <div className="brandingNumberParent">
+                                <div >
+                                    <div className="brandingNumber" >03</div>
+                                </div>
+                                <div>
+                                    <h4 className="processHeading">Creative Execution :</h4>
+                                    <p className="processPara">Bring your brand to life through stunning designs and compelling content.</p>
+                                </div>
                             </div>
-                            <div>
-                                <h4 className="processHeading">Strategy Development :</h4>
-                                <p className="processPara">Develop a tailored brand strategy based on insights gathered.</p>
+                        </Fade>
+                        <Fade delay={1500} duration={500}>
+
+                            <div className="brandingNumberParent">
+                                <div >
+                                    <div className="brandingNumber" >04</div>
+                                </div>
+                                <div>
+                                    <h4 className="processHeading">Launch and Optimization:</h4>
+                                    <p className="processPara">Roll out your new brand identity and continuously optimize based on performance metrics.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="brandingNumberParent">
-                            <div >
-                                <div className="brandingNumber" >03</div>
-                            </div>
-                            <div>
-                                <h4 className="processHeading">Creative Execution :</h4>
-                                <p className="processPara">Bring your brand to life through stunning designs and compelling content.</p>
-                            </div>
-                        </div>
-                        <div className="brandingNumberParent">
-                            <div >
-                                <div className="brandingNumber" >04</div>
-                            </div>
-                            <div>
-                                <h4 className="processHeading">Launch and Optimization:</h4>
-                                <p className="processPara">Roll out your new brand identity and continuously optimize based on performance metrics.</p>
-                            </div>
-                        </div>
+                        </Fade>
 
 
                     </div>

@@ -186,6 +186,7 @@ const PortFolioVideography = () => {
                             relative group">
 
                                 <img src="/videoLeft1.jpg" className="w-full h-full object-cover xl:rounded-[25px] lg:rounded-[25px] md:rounded-[25px] rounded-[25px] " alt="" />
+                             
 
 
                                 <div className="w-full absolute bottom-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">

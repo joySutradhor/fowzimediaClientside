@@ -199,10 +199,10 @@
   }
 
   .servicesPara {
-    @apply 2xl:text-[16px] 2xl:leading-[19.99px] 2xl:pl-[73px] 2xl:pr-[35px] 2xl:pt-[10px] 2xl:pb-[25px] 2xl:text-left 
-    xl:text-[12px] xl:leading-[14.39px] xl:pl-[58px] xl:pr-[20px] xl:pt-[10px] xl:pb-[15px] xl:text-left 
-    lg:text-[14px] lg:leading-[18px] lg:py-[10px]
-    text-[12px] pl-[10px] pr-[10px] pt-[5px] pb-[5px] text-wrap
+    @apply 2xl:text-[18px] 2xl:leading-[12.99px] 2xl:pl-[73px] 2xl:pr-[35px] 2xl:pt-[10px] 2xl:pb-[25px] 2xl:text-left 
+    xl:text-[16px] xl:leading-[19.39px] xl:pl-[58px] xl:pr-[20px] xl:pt-[10px] xl:pb-[15px] xl:text-left 
+    lg:text-[16px] lg:leading-[19px] lg:py-[10px]
+    text-[14px] pl-[10px] pr-[10px] pt-[5px] pb-[5px] text-wrap
     /* -----------commmon Styles ------------ */
     font-glacialBase text-[#111111]
   }

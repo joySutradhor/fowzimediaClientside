@@ -53,19 +53,19 @@ const Photography = () => {
 
     return (
 
-        
-      <>
-      
-      <div className=" bg-[url('/portFoliohero.png')] bg-no-repeat bg-top-center w-[100%] bg-black 
+
+        <>
+
+            <div className=" bg-[url('/portFoliohero.png')] bg-no-repeat bg-top-center w-[100%] bg-black 
    2xl:h-[100dvh] 
    xl:h-[100dvh] 
    lg:h-[100dvh] 
    md:h-[100dvh] 
    h-[70dvh] bg-top">
 
-       {/*----------------- header menu ------------------ */}
-       <div className='relative'>
-           <nav className=" 
+                {/*----------------- header menu ------------------ */}
+                <div className='relative'>
+                    <nav className=" 
        relative
        2xl:pl-[150px] 2xl:pr-[150px] 2xl:pt-[50px] 
        xl:pt-[50px] xl:pl-[60px] xl:pr-[60px] 
@@ -75,113 +75,113 @@ const Photography = () => {
 
        flex justify-between items-center">
 
-               {/* ----------Desktop Menu ---------- */}
-               <div className="headerLogo">
-                   <Link to="/"><img className="w-full h-full cursor-pointer" src={headerLogo} alt="logo" /></Link>
-               </div>
+                        {/* ----------Desktop Menu ---------- */}
+                        <div className="headerLogo">
+                            <Link to="/"><img className="w-full h-full cursor-pointer" src={headerLogo} alt="logo" /></Link>
+                        </div>
 
-               {/*-------------- Desktop Header Menu --------------- */}
-               <div className='hidden md:block lg:block xl:block 2xl:block'>
-                   <ul className="headMenuLeftRight  z-auto  ">
-                       <Link to="/"> <li className="desktopMenu   ">HOME</li> </Link>
-                       <Link to='OurServices' smooth={true} duration={500}> <li className="desktopMenu">SERVICES</li> </Link>
-                       <Link to="aboutUsSection" smooth={true} duration={600} > <li className=" desktopMenu">ABOUT</li> </Link>
-                       <Link to="portfolio" smooth={true} duration={700}> <li className="desktopMenu ">PORTFOLIO</li> </Link>
-                       <Link to="blog" smooth={true} duration={800}> <li className=" desktopMenu">BLOG</li> </Link>
-                       <Link to='footer' smooth={true} duration={1000}> <li className="cursor-pointer"> CONTACT</li> </Link>
-                   </ul>
-               </div>
-               {/* -----------------------Mobile Header Menu ------------------  */}
-
-
-               <div className="md:hidden lg:hidden xl:hidden 2xl:hidden">
-                   <button onClick={toggleMenu}><SlMenu className='text-[25px] text-white'></SlMenu></button>
-                   {menuOpen && (
-                       <div className=''>
-                           <div className={`mobile-menu ${menuOpen ? ' opacity-80' : ''}`}>
-
-                               <div className='flex justify-between items-center px-[20px] pt-[30px] border-b  border-gray-600 pb-[30px]'>
-                                   <div>
-                                       <img className='headerLogoMobile' src={headerLogo} alt="" />
-                                   </div>
-                                   <div>
-                                       <RxCross1 onClick={closeMenu} className='text-[25px] hover:text-[#FF0101]'></RxCross1>
-                                   </div>
-                               </div>
-                               <ul className='menuParent'>
-                                   <Fade cascade duration={300}>
-                                       <Link to="/">
-                                           <li>HOME</li>
-                                       </Link>
-                                       <Link to='OurServices' smooth={true} duration={500}>
-                                           <li >SERVICES</li>
-                                       </Link>
-                                       <Link to="aboutUsSection" smooth={true} duration={600} >
-                                           <li >ABOUT</li>
-                                       </Link>
-                                       <Link to="portfolio" smooth={true} duration={700}>
-                                           <li >PORTFOLIO</li>
-                                       </Link>
-                                       <Link to="blog" smooth={true} duration={800}>
-                                           <li >BLOG</li>
-                                       </Link>
-                                       <Link to='footer' smooth={true} duration={1000}>
-                                           <li className="cursor-pointer"> CONTACT</li>
-                                       </Link>
-                                   </Fade>
-                               </ul>
-                           </div>
-                       </div>
-                   )}
-               </div>
+                        {/*-------------- Desktop Header Menu --------------- */}
+                        <div className='hidden md:block lg:block xl:block 2xl:block'>
+                            <ul className="headMenuLeftRight  z-auto  ">
+                                <Link to="/"> <li className="desktopMenu   ">HOME</li> </Link>
+                                <Link to='OurServices' smooth={true} duration={500}> <li className="desktopMenu">SERVICES</li> </Link>
+                                <Link to="aboutUsSection" smooth={true} duration={600} > <li className=" desktopMenu">ABOUT</li> </Link>
+                                <Link to="portfolio" smooth={true} duration={700}> <li className="desktopMenu ">PORTFOLIO</li> </Link>
+                                <Link to="blog" smooth={true} duration={800}> <li className=" desktopMenu">BLOG</li> </Link>
+                                <Link to='footer' smooth={true} duration={1000}> <li className="cursor-pointer"> CONTACT</li> </Link>
+                            </ul>
+                        </div>
+                        {/* -----------------------Mobile Header Menu ------------------  */}
 
 
+                        <div className="md:hidden lg:hidden xl:hidden 2xl:hidden">
+                            <button onClick={toggleMenu}><SlMenu className='text-[25px] text-white'></SlMenu></button>
+                            {menuOpen && (
+                                <div className=''>
+                                    <div className={`mobile-menu ${menuOpen ? ' opacity-80' : ''}`}>
 
-               {/* --------------DeskTop Socail Icons -------------- */}
-               <div className="md:block lg:block  xl:block 2xl:block hidden">
-                   <div className="flex items-center">
+                                        <div className='flex justify-between items-center px-[20px] pt-[30px] border-b  border-gray-600 pb-[30px]'>
+                                            <div>
+                                                <img className='headerLogoMobile' src={headerLogo} alt="" />
+                                            </div>
+                                            <div>
+                                                <RxCross1 onClick={closeMenu} className='text-[25px] hover:text-[#FF0101]'></RxCross1>
+                                            </div>
+                                        </div>
+                                        <ul className='menuParent'>
+                                            <Fade cascade duration={300}>
+                                                <Link to="/">
+                                                    <li>HOME</li>
+                                                </Link>
+                                                <Link to='OurServices' smooth={true} duration={500}>
+                                                    <li >SERVICES</li>
+                                                </Link>
+                                                <Link to="aboutUsSection" smooth={true} duration={600} >
+                                                    <li >ABOUT</li>
+                                                </Link>
+                                                <Link to="portfolio" smooth={true} duration={700}>
+                                                    <li >PORTFOLIO</li>
+                                                </Link>
+                                                <Link to="blog" smooth={true} duration={800}>
+                                                    <li >BLOG</li>
+                                                </Link>
+                                                <Link to='footer' smooth={true} duration={1000}>
+                                                    <li className="cursor-pointer"> CONTACT</li>
+                                                </Link>
+                                            </Fade>
+                                        </ul>
+                                    </div>
+                                </div>
+                            )}
+                        </div>
 
-                       {/* ----------Facebook ------ */}
-                       <div className="                       
+
+
+                        {/* --------------DeskTop Socail Icons -------------- */}
+                        <div className="md:block lg:block  xl:block 2xl:block hidden">
+                            <div className="flex items-center">
+
+                                {/* ----------Facebook ------ */}
+                                <div className="                       
                    2xl:h-[27px]  2xl:w-[14px] 2xl:mr-[18.91px]
                    xl:mr-[17.91px] xl:w-[13px] xl:h-[25px]
                    lg:mr-[15px] lg:w-[12px] lg:h-[25px]
                    md:mr-[10px] md:w-[10px] md:h-[20px]
                    cursor-pointer">
-                           <img className="w-full h-full " src={fb} alt="" />
-                       </div>
+                                    <img className="w-full h-full " src={fb} alt="" />
+                                </div>
 
-                       {/* -------instragram ---------- */}
-                       <div className="
+                                {/* -------instragram ---------- */}
+                                <div className="
                    2xl:h-[25.11px] 2xl:w-[25.6px] 2xl:mr-[18.49px]                       
                    xl:w-[24.24px] xl:h-[23.78px] xl:mr-[17.51px]  
                    lg:w-[25px] lg:h-[22px] lg:mr-[15px]
                    md:w-[20px] md:h-[19px] md:mr-[10px]
 
                    cursor-pointer">
-                           <img className=" h-full w-full " src={instra} alt="" />
-                       </div>
-                       {/* -------Youtube ---------- */}
-                       <div className="
+                                    <img className=" h-full w-full " src={instra} alt="" />
+                                </div>
+                                {/* -------Youtube ---------- */}
+                                <div className="
                    2xl:h-[24px] 2xl:w-[36px] 
                    xl:h-[22.73px] xl:w-[34.09px]
                    lg:h-[22px] lg:w-[30px]
                    md:h-[20px] md:w-[20px]
 
                    cursor-pointer">
-                           <img className=" w-full h-full object-cover" src={youtube} alt="" />
-                       </div>
-                   </div>
-               </div>
-           </nav>
-       </div>
-
-       
+                                    <img className=" w-full h-full object-cover" src={youtube} alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
 
 
-   </div>
-      
-   <div className="bg-[#111111] 
+
+
+            </div>
+
+            <div className="bg-[#111111] 
             2xl:mt-[-100px] 2xl:rounded-t-[50px] 
             xl:mt-[-50px] xl:rounded-t-[50px]
             lg:mt-[-50px] lg:rounded-t-[50px]
@@ -199,14 +199,14 @@ const Photography = () => {
                             ">Photography</h2>
 
                             <p className="brandingParaText">
-                            Capture the essence of your brand with stunning photography that tells your story and captivates your audience. <span className="text-[#FF0000] font-glaCailBold"> Fowzi Media</span> offers professional photography services designed to showcase your products, events, and brand in the best possible light. From corporate headshots to product photography, we're here to help you stand out and make a lasting impression.
+                                Capture the essence of your brand with stunning photography that tells your story and captivates your audience. <span className="text-[#FF0000] font-glaCailBold"> Fowzi Media</span> offers professional photography services designed to showcase your products, events, and brand in the best possible light. From corporate headshots to product photography, we're here to help you stand out and make a lasting impression.
                             </p>
 
                             <div className="barndingListItems">
                                 <div className="flex flex-wrap gap-x-[10px] md:gap-x-[15px] lg:gap-x-[20px] xl:gap-x-[20px] 2xl:space-x-[30px]">
                                     <li>Product Photography</li>
                                     <li>Corporate Headshots</li>
-                                    
+
                                 </div>
                                 <div className="flex flex-wrap gap-x-[20px] md:gap-x-[15px] lg:gap-x-[20px] xl:gap-x-[20px] 2xl:space-x-[30px]">
                                     <li>Event Photography</li>
@@ -248,7 +248,7 @@ const Photography = () => {
 
                     {/* =======for mobile ============= */}
                     <div className="block md:block lg:block xl:hidden 2xl:hidden ">
-                            <h2 className="titleSubHeading
+                        <h2 className="titleSubHeading
                                  lg:pt-[50px] lg:pb-[40px]
                                  md:pt-[40px] md:pb-[30px]
                                  pt-[30px] pb-[20px] 
@@ -271,61 +271,76 @@ const Photography = () => {
                     <h4 className="titleSubHeading">Our Process</h4>
                     <div className="processParent">
 
-                        <div className="brandingNumberParent">
-                            <div >
-                                <div className="brandingNumber" >01</div>
+                        <Fade delay={500} duration={500}>
+                            <div className="brandingNumberParent">
+                                <div >
+                                    <div className="brandingNumber" >01</div>
+                                </div>
+                                <div>
+                                    <h4 className="processHeading">Consultation  :</h4>
+                                    <p className="processPara">We start with a consultation to understand your needs, vision, and ideas for your photography project.</p>
+                                </div>
                             </div>
-                            <div>
-                                <h4 className="processHeading">Consultation  :</h4>
-                                <p className="processPara">We start with a consultation to understand your needs, vision, and ideas for your photography project.</p>
+                        </Fade>
+                        <Fade delay={800} duration={500}>
+                            <div className="brandingNumberParent">
+                                <div >
+                                    <div className="brandingNumber" >02</div>
+                                </div>
+                                <div>
+                                    <h4 className="processHeading">Planning & Concept Development:</h4>
+                                    <p className="processPara">Our team will work with you to develop a detailed plan and concept for your photography session, outlining the key shots, locations, and styling.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="brandingNumberParent">
-                            <div >
-                                <div className="brandingNumber" >02</div>
-                            </div>
-                            <div>
-                                <h4 className="processHeading">Planning & Concept Development:</h4>
-                                <p className="processPara">Our team will work with you to develop a detailed plan and concept for your photography session, outlining the key shots, locations, and styling.</p>
-                            </div>
-                        </div>
-                        <div className="brandingNumberParent">
-                            <div >
-                                <div className="brandingNumber" >03</div>
-                            </div>
-                            <div>
-                                <h4 className="processHeading">Photography Session :</h4>
-                                <p className="processPara">We'll handle all aspects of the photography session, including lighting, composition, and directing, to ensure we capture the perfect shots.</p>
-                            </div>
-                        </div>
-                        <div className="brandingNumberParent">
-                            <div >
-                                <div className="brandingNumber" >04</div>
-                            </div>
-                            <div>
-                                <h4 className="processHeading">Editing & Retouching:</h4>
-                                <p className="processPara">Our skilled editors will enhance and retouch the photos as needed to ensure they meet your quality standards and brand guidelines.</p>
-                            </div>
-                        </div>
-                        <div className="brandingNumberParent">
-                            <div >
-                                <div className="brandingNumber" >05</div>
-                            </div>
-                            <div>
-                                <h4 className="processHeading">Review & Revisions :</h4>
-                                <p className="processPara">We'll share the draft of the photos for your feedback and make any necessary revisions to ensure they meet your expectations.</p>
-                            </div>
-                        </div>
+                        </Fade>
 
-                        <div className="brandingNumberParent">
-                            <div >
-                                <div className="brandingNumber" >06</div>
+                        <Fade delay={1100} duration={500}>
+                            <div className="brandingNumberParent">
+                                <div >
+                                    <div className="brandingNumber" >03</div>
+                                </div>
+                                <div>
+                                    <h4 className="processHeading">Photography Session :</h4>
+                                    <p className="processPara">We'll handle all aspects of the photography session, including lighting, composition, and directing, to ensure we capture the perfect shots.</p>
+                                </div>
                             </div>
-                            <div>
-                                <h4 className="processHeading">Delivery:</h4>
-                                <p className="processPara">Once approved, we'll deliver the final photos in the format of your choice, ready to be used for your website, social media, marketing materials, and more.</p>
+                        </Fade>
+
+                        <Fade delay={1500} duration={500}>
+                            <div className="brandingNumberParent">
+                                <div >
+                                    <div className="brandingNumber" >04</div>
+                                </div>
+                                <div>
+                                    <h4 className="processHeading">Editing & Retouching:</h4>
+                                    <p className="processPara">Our skilled editors will enhance and retouch the photos as needed to ensure they meet your quality standards and brand guidelines.</p>
+                                </div>
                             </div>
-                        </div>
+                        </Fade>
+
+                        <Fade delay={1800} duration={500}>
+                            <div className="brandingNumberParent">
+                                <div >
+                                    <div className="brandingNumber" >05</div>
+                                </div>
+                                <div>
+                                    <h4 className="processHeading">Review & Revisions :</h4>
+                                    <p className="processPara">We'll share the draft of the photos for your feedback and make any necessary revisions to ensure they meet your expectations.</p>
+                                </div>
+                            </div>
+                        </Fade>
+                        <Fade delay={2100} duration={500}>
+
+                            <div className="brandingNumberParent">
+                                <div >
+                                    <div className="brandingNumber" >06</div>
+                                </div>
+                                <div>
+                                    <h4 className="processHeading">Delivery:</h4>
+                                    <p className="processPara">Once approved, we'll deliver the final photos in the format of your choice, ready to be used for your website, social media, marketing materials, and more.</p>
+                                </div>
+                            </div>
+                        </Fade>
 
 
                     </div>
@@ -415,96 +430,96 @@ const Photography = () => {
 
 
                 </div>
-                   {/* --- cantact PopUp section -------- */}
-            {
-                popUp && <>
+                {/* --- cantact PopUp section -------- */}
+                {
+                    popUp && <>
 
-                    <div className="fixed z-10 inset-0 overflow-y-auto">
-                        <div className="flex items-center justify-center min-h-screen">
-                            <div className="fixed inset-0 bg-gray-700 bg-opacity-75 transition-opacity" aria-hidden="true" ></div>
-                            <div className="relative bg-gray-700 rounded-sm w-[90%] md:w-[70%] lg:w-[70%] xl:w-[40%] 2xl:w-[50%]  mx-auto overflow-hidden shadow-md transform transition-all ">
-                                <div className="px-6 py-4">
+                        <div className="fixed z-10 inset-0 overflow-y-auto">
+                            <div className="flex items-center justify-center min-h-screen">
+                                <div className="fixed inset-0 bg-gray-700 bg-opacity-75 transition-opacity" aria-hidden="true" ></div>
+                                <div className="relative bg-gray-700 rounded-sm w-[90%] md:w-[70%] lg:w-[70%] xl:w-[40%] 2xl:w-[50%]  mx-auto overflow-hidden shadow-md transform transition-all ">
+                                    <div className="px-6 py-4">
 
-                                    <div className="flex justify-between items-start">
-                                        <div className="text-lg text-gray-300 font-semibold mb-4 ">
-                                            <h2 className="text-lg text-gray-300 font-semibold">Contact Now</h2>
-                                            <p className="text-[12px] text-gray-300"></p>
+                                        <div className="flex justify-between items-start">
+                                            <div className="text-lg text-gray-300 font-semibold mb-4 ">
+                                                <h2 className="text-lg text-gray-300 font-semibold">Contact Now</h2>
+                                                <p className="text-[12px] text-gray-300"></p>
+                                            </div>
+                                            <button className="text-md text-gray-300 py-2 rounded-md focus:outline-none font-semibold hover:text-red-600" onClick={closePopUp} >Close</button>
                                         </div>
-                                        <button className="text-md text-gray-300 py-2 rounded-md focus:outline-none font-semibold hover:text-red-600" onClick={closePopUp} >Close</button>
+
+                                        <div className=' grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-1 md:gap-5 lg:gap-5 xl:gap-5 2xl:gap-5 w-[90%]'>
+                                            <input
+                                                type="text"
+                                                placeholder='Enter Your First Name'
+
+
+                                                className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
+                                            />
+                                            <input
+                                                type="text"
+                                                placeholder='Enter Your Last Name'
+
+
+                                                className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
+                                            />
+
+                                        </div>
+                                        <div className=' grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-1 md:gap-5 lg:gap-5 xl:gap-5 2xl:gap-5 w-[90%]'>
+                                            <input
+                                                type="text"
+                                                placeholder='Enter Your Company Name'
+
+
+                                                className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
+                                            />
+                                            <input
+                                                type="text"
+                                                placeholder='Enter Your Adreess '
+
+
+                                                className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
+                                            />
+
+                                        </div>
+                                        <div className="grid grid-cols-1 gap-1 md:gap-5 lg:gap-5 xl:gap-5 2xl:gap-5 w-[90%]">
+                                            <textarea
+
+                                                onChange={handleDescriptionChange}
+                                                className='text-[14px] rounded-sm bg-transparent outline-none border border-gray-500 py-2 px-2 text-gray-300 resize-none overflow-hidden'
+                                                placeholder='Ask a question ....'
+                                                rows={2}
+                                                style={{ minHeight: '3rem', maxHeight: '10rem' }}
+                                            ></textarea>
+                                        </div>
                                     </div>
 
-                                    <div className=' grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-1 md:gap-5 lg:gap-5 xl:gap-5 2xl:gap-5 w-[90%]'>
-                                        <input
-                                            type="text"
-                                            placeholder='Enter Your First Name'
-
-
-                                            className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
-                                        />
-                                        <input
-                                            type="text"
-                                            placeholder='Enter Your Last Name'
-
-
-                                            className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
-                                        />
-
+                                    <div className="px-2 py-4 bg-gray-700 flex md:justify-end lg:justify-end xl:justify-end 2xl:justify-end justify-center">
+                                        <div>
+                                            <button className="text-md py-2 px-4 rounded-md focus:outline-none text-green-500 font-semibold" >Submit</button>
+                                            <button className="text-md py-2 px-4 rounded-md focus:outline-none text-red-500 font-semibold" onClick={closePopUp} >Cancel</button>
+                                        </div>
                                     </div>
-                                    <div className=' grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-1 md:gap-5 lg:gap-5 xl:gap-5 2xl:gap-5 w-[90%]'>
-                                        <input
-                                            type="text"
-                                            placeholder='Enter Your Company Name'
 
-
-                                            className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
-                                        />
-                                        <input
-                                            type="text"
-                                            placeholder='Enter Your Adreess '
-
-
-                                            className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
-                                        />
-
-                                    </div>
-                                    <div className="grid grid-cols-1 gap-1 md:gap-5 lg:gap-5 xl:gap-5 2xl:gap-5 w-[90%]">
-                                        <textarea
-
-                                            onChange={handleDescriptionChange}
-                                            className='text-[14px] rounded-sm bg-transparent outline-none border border-gray-500 py-2 px-2 text-gray-300 resize-none overflow-hidden'
-                                            placeholder='Ask a question ....'
-                                            rows={2}
-                                            style={{ minHeight: '3rem', maxHeight: '10rem' }}
-                                        ></textarea>
-                                    </div>
                                 </div>
 
-                                <div className="px-2 py-4 bg-gray-700 flex md:justify-end lg:justify-end xl:justify-end 2xl:justify-end justify-center">
-                                    <div>
-                                        <button className="text-md py-2 px-4 rounded-md focus:outline-none text-green-500 font-semibold" >Submit</button>
-                                        <button className="text-md py-2 px-4 rounded-md focus:outline-none text-red-500 font-semibold" onClick={closePopUp} >Cancel</button>
-                                    </div>
-                                </div>
 
                             </div>
-
-
                         </div>
-                    </div>
-                </>
-            }
+                    </>
+                }
 
                 {/* footer section */}
                 <Footer></Footer>
             </div>
-      
-      
-      </>
-        
-      
-            
-            
-       
+
+
+        </>
+
+
+
+
+
     );
 };
 

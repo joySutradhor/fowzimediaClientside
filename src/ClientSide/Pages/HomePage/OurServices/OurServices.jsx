@@ -20,7 +20,7 @@ const OurServices = () => {
 
     {
       heading: "Branding",
-      description: "Your brand is more than just your logo. It's the overall image and reputation of your business. We can help you create a strong and consistent brand identity that sets you apart from....",
+      description: "We create memorable brand identities that resonate.",
       imgSrc: "https://i.ibb.co/c8njjr8/services-Img.png",
       icon: <IoStatsChartSharp className="2xl:text-[27px] xl:text-[22px]" />,
       route: "/branding"
@@ -28,7 +28,7 @@ const OurServices = () => {
 
     {
       heading: "WebSite",
-      description: "Your website is often the first impression that potential customers have of your business. We can help you create a modern, user-friendly website that showcases your brand....",
+      description: "We specialize in building user-friendly websites that captivate.",
       imgSrc: "https://i.ibb.co/1z3bmLj/aboutUs.png",
       icon: <FaCode className="2xl:text-[27px] xl:text-[22px]" />,
       route: "/webDesign"
@@ -37,7 +37,7 @@ const OurServices = () => {
 
     {
       heading: "videoGraphy",
-      description: "Video is a powerful medium for conveying your message and engaging your audience. Our videographers can help you create professional-quality video content for your website, social...",
+      description: "For over a decade, we've been dedicated to delivering captivating full-service videography, telling your story with style.",
       imgSrc: "https://i.ibb.co/1z3bmLj/aboutUs.png",
       icon: <ImVideoCamera className="2xl:text-[27px] xl:text-[22px]" />,
       route: "/videoGraphy"
@@ -46,7 +46,7 @@ const OurServices = () => {
 
     {
       heading: "Photography",
-      description: "Our team of experienced photographers can help you capture the perfect shots for your business or personal project.",
+      description: "For over a decade, we've remained steadfast in our commitment to delivering breathtaking visuals.",
       imgSrc: "https://i.ibb.co/c8njjr8/services-Img.png",
       icon: <FaCamera className="2xl:text-[27px] xl:text-[22px]" />,
       route: "/photography"
