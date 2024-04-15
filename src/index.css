@@ -842,7 +842,7 @@
 
   .PortraitImgOne{
     @apply 
-    xl:max-h-[336px] xl:w-full
+    xl:h-[336px] xl:w-full
 
     /* --------------Common Styles -------------- */
     object-cover  cursor-pointer

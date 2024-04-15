@@ -22,6 +22,8 @@ import PortFolioBranding from './ClientSide/Pages/PortFolioPages/PortFolioBrandi
 import PortFolioWebDesign from './ClientSide/Pages/PortFolioPages/PortFolioWebDesign/PortFolioWebDesign';
 import BlogMainPage from './ClientSide/Pages/BlogMainPage/BlogMainPage';
 import SinglePortFolioBranding from './ClientSide/Pages/PortFolioPages/PortFolioBranding/SinglePortFolioBranding.jsx';
+import InduvisualBrandingTwo from './ClientSide/Pages/PortFolioPages/PortFolioBranding/InduvisualBrandingTwo.jsx';
+import InduvisualBrandingThree from './ClientSide/Pages/PortFolioPages/PortFolioBranding/InduvisualBrandingThree.jsx';
 
 
 const router = createBrowserRouter([
@@ -102,6 +104,15 @@ const router = createBrowserRouter([
   {
     path: "/BlogDetailsFirst",
     element : <BlogDetailsFirst></BlogDetailsFirst>
+  },
+  {
+    path : "/InduvisualBrandingTwo",
+    element : <InduvisualBrandingTwo></InduvisualBrandingTwo>
+  } ,
+
+  {
+    path : "/InduvisualBrandingThree",
+    element : <InduvisualBrandingThree></InduvisualBrandingThree>
   }
 
 ]);

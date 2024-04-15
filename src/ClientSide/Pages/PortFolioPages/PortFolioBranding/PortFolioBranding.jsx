@@ -227,7 +227,7 @@ const PortFolioBranding = () => {
                                                     </div>
                                                     <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                                                         <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
-                                                            <h5 className="overlayText">View Website</h5>
+                                                            {/* <h5 className="overlayText">View Website</h5> */}
                                                             <p><FaArrowRightLong></FaArrowRightLong></p>
                                                         </div>
                                                     </div>
@@ -238,7 +238,7 @@ const PortFolioBranding = () => {
                                     </Link>
 
                                     {/* ==========card Two ====== */}
-                                    <Link  to="/SinglePortFolioBranding" >
+                                    <Link to="/InduvisualBrandingTwo" >
                                         <div className="relative cursor-pointer">
                                             <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
                                                 <div >
@@ -247,7 +247,7 @@ const PortFolioBranding = () => {
                                                     </div>
                                                     <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
                                                         <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
-                                                            <h5 className="overlayText">View Website</h5>
+                                                            {/* <h5 className="overlayText">View Website</h5> */}
                                                             <p><FaArrowRightLong></FaArrowRightLong></p>
                                                         </div>
                                                     </div>
@@ -258,22 +258,24 @@ const PortFolioBranding = () => {
                                     </Link>
 
                                     {/* ==========card Three ====== */}
-                                    <div className="relative cursor-pointer">
-                                        <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
-                                            <div >
-                                                <div className="PortraitImgOne ">
-                                                    <img className="h-full w-full" src="/pTwo.png" alt="" />
-                                                </div>
-                                                <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
-                                                    <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
-                                                        <h5 className="overlayText">View Website</h5>
-                                                        <p><FaArrowRightLong></FaArrowRightLong></p>
+                                    <Link to="/InduvisualBrandingThree">
+                                        <div className="relative cursor-pointer">
+                                            <div className=" border-[4px] rounded-[15px]  relative overflow-hidden">
+                                                <div >
+                                                    <div className="PortraitImgOne ">
+                                                        <img className="h-full w-full" src="/pTwo.png" alt="" />
+                                                    </div>
+                                                    <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                                                        <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
+                                                            {/* <h5 className="overlayText">View Website</h5> */}
+                                                            <p><FaArrowRightLong></FaArrowRightLong></p>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4>
                                             </div>
-                                            <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4>
                                         </div>
-                                    </div>
+                                    </Link>
 
                                 </div>
 
@@ -287,57 +289,65 @@ const PortFolioBranding = () => {
                         <div className="block md:hidden lg:hidden xl:hidden 2xl:hidden">
                             <Slider {...settings} >
                                 {/* ==========card One ====== */}
-                                <div className="relative cursor-pointer ">
-                                    <div className=" border-[1px] rounded-[15px]  relative overflow-hidden">
-                                        <div >
-                                            <div className="PortraitImgOne ">
-                                                <img className="h-full w-full" src="/pOne.png" alt="" />
-                                            </div>
-                                            <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
-                                                <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
-                                                    <h5 className="overlayText">View Website</h5>
-                                                    <p><FaArrowRightLong></FaArrowRightLong></p>
+                                <Link to="/SinglePortFolioBranding">
+                                    <div className="relative cursor-pointer ">
+                                        <div className=" border-[1px] rounded-[15px]  relative overflow-hidden">
+                                            <div >
+                                                <div className="PortraitImgOne ">
+                                                    <img className="h-full w-full" src="/pOne.png" alt="" />
+                                                </div>
+                                                <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                                                    <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
+                                                        {/* <h5 className="overlayText">View Website</h5> */}
+                                                        <p><FaArrowRightLong></FaArrowRightLong></p>
+                                                    </div>
                                                 </div>
                                             </div>
+                                            <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4>
                                         </div>
-                                        <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4>
                                     </div>
-                                </div>
+                                </Link>
 
                                 {/* ==========card Two ====== */}
-                                <div className="relative cursor-pointer">
-                                    <div className=" border-[1px] rounded-[15px]  relative overflow-hidden">
-                                        <div >
-                                            <div className="PortraitImgOne ">
-                                                <img className="h-full w-full" src="/pFive.png" alt="" />
-                                            </div>
-                                            <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
-                                                <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
-                                                    <h5 className="overlayText">View Website</h5>
-                                                    <p><FaArrowRightLong></FaArrowRightLong></p>
+                                <Link to="/InduvisualBrandingTwo">
+                                    <div className="relative cursor-pointer">
+                                        <div className=" border-[1px] rounded-[15px]  relative overflow-hidden">
+                                            <div >
+                                                <div className="PortraitImgOne ">
+                                                    <img className="h-full w-full" src="/pFive.png" alt="" />
+                                                </div>
+                                                <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                                                    <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
+                                                        {/* <h5 className="overlayText">View Website</h5> */}
+                                                        <p><FaArrowRightLong></FaArrowRightLong></p>
+                                                    </div>
                                                 </div>
                                             </div>
+                                            <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4>
                                         </div>
-                                        <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4>
                                     </div>
-                                </div>
+                                </Link>
                                 {/* ==========card Three ====== */}
-                                <div className="relative cursor-pointer">
-                                    <div className=" border-[1px] rounded-[15px]  relative overflow-hidden">
-                                        <div >
-                                            <div className="PortraitImgOne ">
-                                                <img className="h-full w-full" src="/pTwo.png" alt="" />
-                                            </div>
-                                            <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
-                                                <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
-                                                    <h5 className="overlayText">View Website</h5>
-                                                    <p><FaArrowRightLong></FaArrowRightLong></p>
+
+                                <Link to="/InduvisualBrandingThree">
+
+                                    <div className="relative cursor-pointer">
+                                        <div className=" border-[1px] rounded-[15px]  relative overflow-hidden">
+                                            <div >
+                                                <div className="PortraitImgOne ">
+                                                    <img className="h-full w-full" src="/pTwo.png" alt="" />
+                                                </div>
+                                                <div className="overlay absolute inset-0 flex justify-center items-center bg-black bg-opacity-70 transition-opacity duration-300 opacity-0 hover:opacity-100">
+                                                    <div className="overlay-content text-white flex flex-col items-center justify-center  rounded-lg">
+                                                        {/* <h5 className="overlayText">View Website</h5> */}
+                                                        <p><FaArrowRightLong></FaArrowRightLong></p>
+                                                    </div>
                                                 </div>
                                             </div>
+                                            <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4>
                                         </div>
-                                        <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4>
                                     </div>
-                                </div>
+                                </Link>
 
 
 
@@ -350,7 +360,7 @@ const PortFolioBranding = () => {
 
                 </div>
 
-               
+
 
 
                 {/* -----------Call to Action Section ------------ */}
@@ -404,85 +414,85 @@ const PortFolioBranding = () => {
 
                 </div>
 
-                
+
                 {/* --- cantact PopUp section -------- */}
-            {
-                popUp && <>
+                {
+                    popUp && <>
 
-                    <div className="fixed z-10 inset-0 overflow-y-auto">
-                        <div className="flex items-center justify-center min-h-screen">
-                            <div className="fixed inset-0 bg-gray-700 bg-opacity-75 transition-opacity" aria-hidden="true" ></div>
-                            <div className="relative bg-gray-700 rounded-sm w-[90%] md:w-[70%] lg:w-[70%] xl:w-[40%] 2xl:w-[50%]  overflow-hidden shadow-md transform transition-all  ">
-                                <div className="px-6 py-4">
+                        <div className="fixed z-10 inset-0 overflow-y-auto">
+                            <div className="flex items-center justify-center min-h-screen">
+                                <div className="fixed inset-0 bg-gray-700 bg-opacity-75 transition-opacity" aria-hidden="true" ></div>
+                                <div className="relative bg-gray-700 rounded-sm w-[90%] md:w-[70%] lg:w-[70%] xl:w-[40%] 2xl:w-[50%]  overflow-hidden shadow-md transform transition-all  ">
+                                    <div className="px-6 py-4">
 
-                                    <div className="flex justify-between items-start">
-                                        <div className="text-lg text-gray-300 font-semibold mb-4 ">
-                                            <h2 className="text-lg text-gray-300 font-semibold">Contact Now</h2>
-                                            <p className="text-[12px] text-gray-300"></p>
+                                        <div className="flex justify-between items-start">
+                                            <div className="text-lg text-gray-300 font-semibold mb-4 ">
+                                                <h2 className="text-lg text-gray-300 font-semibold">Contact Now</h2>
+                                                <p className="text-[12px] text-gray-300"></p>
+                                            </div>
+                                            <button className="text-md text-gray-300 py-2 rounded-md focus:outline-none font-semibold hover:text-red-600" onClick={closePopUp} >Close</button>
                                         </div>
-                                        <button className="text-md text-gray-300 py-2 rounded-md focus:outline-none font-semibold hover:text-red-600" onClick={closePopUp} >Close</button>
+
+                                        <div className=' grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-1 md:gap-5 lg:gap-5 xl:gap-5 2xl:gap-5 w-[90%]'>
+                                            <input
+                                                type="text"
+                                                placeholder='Enter Your First Name'
+
+
+                                                className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
+                                            />
+                                            <input
+                                                type="text"
+                                                placeholder='Enter Your Last Name'
+
+
+                                                className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
+                                            />
+
+                                        </div>
+                                        <div className=' grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-1 md:gap-5 lg:gap-5 xl:gap-5 2xl:gap-5 w-[90%]'>
+                                            <input
+                                                type="text"
+                                                placeholder='Enter Your Company Name'
+
+
+                                                className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
+                                            />
+                                            <input
+                                                type="text"
+                                                placeholder='Enter Your Adreess '
+
+
+                                                className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
+                                            />
+
+                                        </div>
+                                        <div className="grid grid-cols-1 gap-1 md:gap-5 lg:gap-5 xl:gap-5 2xl:gap-5 w-[90%]">
+                                            <textarea
+
+                                                onChange={handleDescriptionChange}
+                                                className='text-[14px] rounded-sm bg-transparent outline-none border border-gray-500 py-2 px-2 text-gray-300 resize-none overflow-hidden'
+                                                placeholder='Ask a question ....'
+                                                rows={2}
+                                                style={{ minHeight: '3rem', maxHeight: '10rem' }}
+                                            ></textarea>
+                                        </div>
                                     </div>
 
-                                    <div className=' grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-1 md:gap-5 lg:gap-5 xl:gap-5 2xl:gap-5 w-[90%]'>
-                                        <input
-                                            type="text"
-                                            placeholder='Enter Your First Name'
-
-
-                                            className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
-                                        />
-                                        <input
-                                            type="text"
-                                            placeholder='Enter Your Last Name'
-
-
-                                            className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
-                                        />
-
+                                    <div className="px-2 py-4 bg-gray-700 flex md:justify-end lg:justify-end xl:justify-end 2xl:justify-end justify-center">
+                                        <div>
+                                            <button className="text-md py-2 px-4 rounded-md focus:outline-none text-green-500 font-semibold" >Submit</button>
+                                            <button className="text-md py-2 px-4 rounded-md focus:outline-none text-red-500 font-semibold" onClick={closePopUp} >Cancel</button>
+                                        </div>
                                     </div>
-                                    <div className=' grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-1 md:gap-5 lg:gap-5 xl:gap-5 2xl:gap-5 w-[90%]'>
-                                        <input
-                                            type="text"
-                                            placeholder='Enter Your Company Name'
 
-
-                                            className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
-                                        />
-                                        <input
-                                            type="text"
-                                            placeholder='Enter Your Adreess '
-
-
-                                            className="text-sm text-gray-300 bg-transparent outline-none border border-gray-500 py-2 px-2 rounded-sm mb-3"
-                                        />
-
-                                    </div>
-                                    <div className="grid grid-cols-1 gap-1 md:gap-5 lg:gap-5 xl:gap-5 2xl:gap-5 w-[90%]">
-                                        <textarea
-
-                                            onChange={handleDescriptionChange}
-                                            className='text-[14px] rounded-sm bg-transparent outline-none border border-gray-500 py-2 px-2 text-gray-300 resize-none overflow-hidden'
-                                            placeholder='Ask a question ....'
-                                            rows={2}
-                                            style={{ minHeight: '3rem', maxHeight: '10rem' }}
-                                        ></textarea>
-                                    </div>
                                 </div>
 
-                                <div className="px-2 py-4 bg-gray-700 flex md:justify-end lg:justify-end xl:justify-end 2xl:justify-end justify-center">
-                                    <div>
-                                        <button className="text-md py-2 px-4 rounded-md focus:outline-none text-green-500 font-semibold" >Submit</button>
-                                        <button className="text-md py-2 px-4 rounded-md focus:outline-none text-red-500 font-semibold" onClick={closePopUp} >Cancel</button>
-                                    </div>
-                                </div>
 
                             </div>
-
-
                         </div>
-                    </div>
-                </>
-            }
+                    </>
+                }
 
                 {/* footer section */}
                 <Footer></Footer>
