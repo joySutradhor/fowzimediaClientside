@@ -1,7 +1,9 @@
 
 import { Link } from "react-router-dom";
-import blog1 from "/blogImg1.webp"
-import blog2 from "/blogImg2.webp"
+// import blog1 from "/blogImg1.webp"
+import blog1 from "/blogOne.png"
+// import blog2 from "/blogImg2.webp"
+import blog2 from "/blogTwo.jpg"
 import blog3 from "/blogImg3.webp"
 import profile from "/profile.png"
 import { BsThreeDotsVertical } from "react-icons/bs";
@@ -47,10 +49,10 @@ const Blog = () => {
                                     <p><BsThreeDotsVertical className="text-white"></BsThreeDotsVertical></p>
                                 </div> */}
                             </div>
-                            <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
-                            <p className="blogPara">
+                            <p className="blogHeading">Awad For Puntland</p>
+                            {/* <p className="blogPara">
                                 Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
-                            </p>
+                            </p> */}
                            
                         </div>
                     </Link>
@@ -86,10 +88,10 @@ const Blog = () => {
                                     <p><BsThreeDotsVertical className="text-white"></BsThreeDotsVertical></p>
                                 </div> */}
                             </div>
-                            <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
-                            <p className="blogPara">
+                            <p className="blogHeading">Jannah Fitwear</p>
+                            {/* <p className="blogPara">
                                 Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
-                            </p>
+                            </p> */}
                             
                         </div>
                     </Link>
@@ -124,9 +126,9 @@ const Blog = () => {
                                 </div> */}
                             </div>
                             <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
-                            <p className="blogPara">
+                            {/* <p className="blogPara">
                                 Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
-                            </p>
+                            </p> */}
                           
                         </div>
                     </Link>
