@@ -12,11 +12,13 @@ import { Fade } from 'react-awesome-reveal';
 import { Link, Link as RouterLink } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
 import Footer from "../Shared/Footer/Footer";
-import { BsThreeDotsVertical } from "react-icons/bs";
+
 import blog1 from "/blogImg1.webp"
 import blog2 from "/blogImg2.webp"
 import blog3 from "/blogImg3.webp"
-import profile from "/profile.png"
+import caseOne from "/caseOne.jpg"
+import caseTwo from "/caseTwo.png"
+
 
 
 const BlogMainPage = () => {
@@ -268,7 +270,7 @@ const BlogMainPage = () => {
                             md:mr-[15px]
                            border rounded-[15px] ">
 
-                            <img className="blogImg" src={blog1} alt="" />
+                            <img className="blogImg" src={caseOne} alt="" />
 
                          
                             <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
@@ -290,7 +292,7 @@ const BlogMainPage = () => {
                             border rounded-[15px]
                             object-cover bg-no-repeat">
 
-                            <img className="blogImg" src={blog2} alt="" />
+                            <img className="blogImg" src={caseTwo} alt="" />
 
                           
                             <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
