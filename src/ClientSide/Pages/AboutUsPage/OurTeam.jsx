@@ -36,8 +36,8 @@ const OurTeam = () => {
                         <img className="h-full w-full  object-cover xl:rounded-[15px]  2xl:rounded-[18px] lg:rounded-[15px] md:rounded-[15px] rounded-[10px] " src="/team2.png" alt="" />
                     </div>
                     <div className="2xl:p-[25px] xl:p-[15px] lg:p-[15px] md:p-[10px] p-[10px]">
-                        <h3 className="teamHeading">Hossein Noor</h3>
-                        <p className="teamSubHeading">Creative Director</p>
+                        <h3 className="teamHeading">Shugri Farah</h3>
+                        <p className="teamSubHeading">Marketing Manager</p>
                         <div className="flex text-white">
                             <p><FaFacebookF /></p>
                             <p className="px-[8.5px]"><IoLogoInstagram /></p>
@@ -52,8 +52,8 @@ const OurTeam = () => {
                         <img className="h-full w-full  object-cover xl:rounded-[15px]  2xl:rounded-[18px] lg:rounded-[15px] md:rounded-[15px] rounded-[10px] " src="/team1.png" alt="" />
                     </div>
                     <div className="2xl:p-[25px] xl:p-[15px] lg:p-[15px] md:p-[10px] p-[10px]">
-                        <h3 className="teamHeading">Hossein Noor</h3>
-                        <p className="teamSubHeading">Creative Director</p>
+                        <h3 className="teamHeading">Ishak Yasin</h3>
+                        <p className="teamSubHeading">Cinematographer</p>
                         <div className="flex text-white">
                             <p><FaFacebookF /></p>
                             <p className="px-[8.5px]"><IoLogoInstagram /></p>

@@ -188,17 +188,16 @@ const AboutUsPage = () => {
                                 md:text-[16px] md:leading-[18px] md:pb-[30px] md:pt-0
                                 text-[14px] leading-[21px] pb-[20px] pt-[20px]
                                 
-                                "><span className="font-glaCailBold text-[#FF0000]">Fowzi Media</span> - Where Creativity Meets Digital Excellence. Born from a passion for storytelling and a commitment to innovation, Fowzi Media is dedicated to transforming your digital presence. We specialize in branding, web design, and videography, creating compelling content that captivates and communicates with your audience.</p>
+                                "><span className="font-glaCailBold text-[#FF0000]">Fowzi Media</span> A leading branding and marketing agency specializing in video production, photography, and strategic communications. Our unique perspective as a minority-immigrant-owned firm drives compelling digital storytelling that engages audiences and catalyzes social change.
+                                We excel at bridging communication gaps between public, nonprofit, and private sector leaders and immigrant and minority communities. Grounded in trust-building, our approach fosters meaningful relationships essential for successful marketing and branding campaigns.
+                                With a dedicated team of five experts, we collaborate with diverse independent contractors to deliver innovative marketing solutions. From powerful video commercials to comprehensive strategies, Fowzi Media is your partner for success.</p>
                                     <h2 className="aboutParaHeading">Our Philosophy :</h2>
                                     <p className="aboutUsText">We believe in the power of unique stories and digital creativity. Our mission is to empower businesses and non-profits to share their vision, breaking barriers and making meaningful connections.</p>
-                                    <h2 className="aboutParaHeading">Our Services:</h2>
-                                    <p className="aboutUsText">
-                                        Tailored to elevate your brand, our services range from visually stunning websites and resonant brand identities to storytelling videos. Each project is crafted to meet your specific needs, ensuring impactful communication with your target audience.
-                                    </p>
+                                  
 
                                     <div className="hidden lg:block xl:block 2xl:block">
 
-                                        <h2 className="aboutParaHeading ">Why Choose Us dfgfdgf?</h2>
+                                        <h2 className="aboutParaHeading ">Why Choose Us ?</h2>
                                         <p className="aboutUsText">
                                             Combining artistry with strategy, we create digital solutions that are beautiful and effective. Our hands-on, collaborative approach is driven by results, supporting your journey from concept to creation, ensuring every step is seamless and transformative.
                                         </p>
@@ -239,7 +238,7 @@ const AboutUsPage = () => {
                                                 </div>
                                                 <div className=" aboutChildParent ">
                                                     <div className="childContent">
-                                                        <h3 className="childHeading">30+</h3>
+                                                        <h3 className="childHeading">511+</h3>
                                                         <p className="childText">Project Challenge</p>
                                                     </div>
                                                 </div>
@@ -255,14 +254,14 @@ const AboutUsPage = () => {
                                         ">
                                                 <div className=" aboutChildParent ">
                                                     <div className="childContent ">
-                                                        <h3 className="childHeading">4.5k+</h3>
-                                                        <p className="childText">Positive Review</p>
+                                                        <h3 className="childHeading">5 Star</h3>
+                                                        <p className="childText">Google Review</p>
                                                     </div>
                                                 </div>
                                                 <div className=" aboutChildParent ">
                                                     <div className="childContent">
-                                                        <h3 className="childHeading">25+</h3>
-                                                        <p className="childText">Award</p>
+                                                        <h3 className="childHeading">14,153+</h3>
+                                                        <p className="childText">Cups of Coffee</p>
                                                     </div>
                                                 </div>
                                             </div>

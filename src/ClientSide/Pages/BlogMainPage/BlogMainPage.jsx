@@ -186,7 +186,7 @@ const BlogMainPage = () => {
              ">
                 
                 <div className="leftRight 2xl:pb-[200px] xl:pb-[180px] lg:pb-[150px] md:pb-[100px] pb-[60px]">
-                    <h3 className="titleSubHeading ">Blog</h3>
+                    <h3 className="titleSubHeading ">Case Studies</h3>
                     <div className=" grid 
                     md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3
                     2xl:gap-y-[50px] xl:gap-y-[40px] lg:gap-y-[30px] md:gap-y-[25px] 
@@ -205,24 +205,7 @@ const BlogMainPage = () => {
 
                             <img className="blogImg" src={blog1} alt="" />
 
-                            <div
-                                className="2xl:px-[15px] 2xl:pt-[25px] 2xl:pb-[25px]
-                                xl:px-[11px] xl:pt-[19px] xl:pb-[19px]
-                                px-[5px] pt-[10px] pb-[10px]
-                                flex justify-between items-center">
-                                <div className="flex items-center">
-                                    <div>
-                                        <img className="xl:h-[25px] xl:w-[25px] h-[30px] w-[30px] object-cover" src={profile} alt="" />
-                                    </div>
-                                    <div className="2xl:ml-[10px] xl:ml-[7.24px] ml-[10px]">
-                                        <h3 className="blogUserTitle">Hossen Noor</h3>
-                                        <h3 className="blogDate">Dec 28, 2022</h3>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p><BsThreeDotsVertical className="text-white"></BsThreeDotsVertical></p>
-                                </div>
-                            </div>
+                           
                             <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
                             <p className="blogPara">
                                 Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
@@ -244,24 +227,7 @@ const BlogMainPage = () => {
 
                             <img className="blogImg" src={blog2} alt="" />
 
-                            <div
-                                className="2xl:px-[15px] 2xl:pt-[25px] 2xl:pb-[25px]
-                                xl:px-[11px] xl:pt-[19px] xl:pb-[19px]
-                                px-[5px] pt-[10px] pb-[10px]
-                                flex justify-between items-center">
-                                <div className="flex items-center">
-                                    <div>
-                                        <img className="xl:h-[25px] xl:w-[25px] h-[30px] w-[30px] object-cover" src={profile} alt="" />
-                                    </div>
-                                    <div className="2xl:ml-[10px] xl:ml-[7.24px] ml-[10px]">
-                                        <h3 className="blogUserTitle">Hossen Noor</h3>
-                                        <h3 className="blogDate">Dec 28, 2022</h3>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p><BsThreeDotsVertical className="text-white"></BsThreeDotsVertical></p>
-                                </div>
-                            </div>
+                           
                             <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
                             <p className="blogPara">
                                 Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
@@ -281,24 +247,7 @@ const BlogMainPage = () => {
 
                             <img className="blogImg" src={blog3} alt="" />
 
-                            <div
-                                className="2xl:px-[15px] 2xl:pt-[25px] 2xl:pb-[25px]
-                                xl:px-[11px] xl:pt-[19px] xl:pb-[19px]
-                                px-[5px] pt-[10px] pb-[10px]
-                                flex justify-between items-center">
-                                <div className="flex items-center">
-                                    <div>
-                                        <img className="xl:h-[25px] xl:w-[25px] h-[30px] w-[30px] object-cover" src={profile} alt="" />
-                                    </div>
-                                    <div className="2xl:ml-[10px] xl:ml-[7.24px] ml-[10px]">
-                                        <h3 className="blogUserTitle">Hossen Noor</h3>
-                                        <h3 className="blogDate">Dec 28, 2022</h3>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p><BsThreeDotsVertical className="text-white"></BsThreeDotsVertical></p>
-                                </div>
-                            </div>
+                          
                             <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
                             <p className="blogPara">
                                 Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
@@ -321,24 +270,7 @@ const BlogMainPage = () => {
 
                             <img className="blogImg" src={blog1} alt="" />
 
-                            <div
-                                className="2xl:px-[15px] 2xl:pt-[25px] 2xl:pb-[25px]
-                                xl:px-[11px] xl:pt-[19px] xl:pb-[19px]
-                                px-[5px] pt-[10px] pb-[10px]
-                                flex justify-between items-center">
-                                <div className="flex items-center">
-                                    <div>
-                                        <img className="xl:h-[25px] xl:w-[25px] h-[30px] w-[30px] object-cover" src={profile} alt="" />
-                                    </div>
-                                    <div className="2xl:ml-[10px] xl:ml-[7.24px] ml-[10px]">
-                                        <h3 className="blogUserTitle">Hossen Noor</h3>
-                                        <h3 className="blogDate">Dec 28, 2022</h3>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p><BsThreeDotsVertical className="text-white"></BsThreeDotsVertical></p>
-                                </div>
-                            </div>
+                         
                             <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
                             <p className="blogPara">
                                 Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
@@ -360,24 +292,7 @@ const BlogMainPage = () => {
 
                             <img className="blogImg" src={blog2} alt="" />
 
-                            <div
-                                className="2xl:px-[15px] 2xl:pt-[25px] 2xl:pb-[25px]
-                                xl:px-[11px] xl:pt-[19px] xl:pb-[19px]
-                                px-[5px] pt-[10px] pb-[10px]
-                                flex justify-between items-center">
-                                <div className="flex items-center">
-                                    <div>
-                                        <img className="xl:h-[25px] xl:w-[25px] h-[30px] w-[30px] object-cover" src={profile} alt="" />
-                                    </div>
-                                    <div className="2xl:ml-[10px] xl:ml-[7.24px] ml-[10px]">
-                                        <h3 className="blogUserTitle">Hossen Noor</h3>
-                                        <h3 className="blogDate">Dec 28, 2022</h3>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p><BsThreeDotsVertical className="text-white"></BsThreeDotsVertical></p>
-                                </div>
-                            </div>
+                          
                             <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
                             <p className="blogPara">
                                 Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>
@@ -397,24 +312,7 @@ const BlogMainPage = () => {
 
                             <img className="blogImg" src={blog3} alt="" />
 
-                            <div
-                                className="2xl:px-[15px] 2xl:pt-[25px] 2xl:pb-[25px]
-                                xl:px-[11px] xl:pt-[19px] xl:pb-[19px]
-                                px-[5px] pt-[10px] pb-[10px]
-                                flex justify-between items-center">
-                                <div className="flex items-center">
-                                    <div>
-                                        <img className="xl:h-[25px] xl:w-[25px] h-[30px] w-[30px] object-cover" src={profile} alt="" />
-                                    </div>
-                                    <div className="2xl:ml-[10px] xl:ml-[7.24px] ml-[10px]">
-                                        <h3 className="blogUserTitle">Hossen Noor</h3>
-                                        <h3 className="blogDate">Dec 28, 2022</h3>
-                                    </div>
-                                </div>
-                                <div>
-                                    <p><BsThreeDotsVertical className="text-white"></BsThreeDotsVertical></p>
-                                </div>
-                            </div>
+                            
                             <p className="blogHeading">The Importance of Using Video to Market Your Products or Services</p>
                             <p className="blogPara">
                                 Video is an increasingly important tool for businesses looking to market themselves effectively in today digital world.. <span className="font-glaCailBold underline underline-offset-2">read more</span>

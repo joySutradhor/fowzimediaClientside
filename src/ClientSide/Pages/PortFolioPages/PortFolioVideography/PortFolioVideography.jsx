@@ -236,6 +236,7 @@ const PortFolioVideography = () => {
                                     </div>
                                 </div>
                             </div>
+                            
                             {/* ---------------left three card --------------- */}
                             <div className=" 2xl:mb-[68px] 2xl:w-[776px] 2xl:h-[675px]  
                             xl:w-full xl:h-[502px] mb-[20px] md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0

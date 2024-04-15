@@ -14,7 +14,9 @@ const Home = () => {
     return (
         <div className="bg-[#111111]">
             <Header></Header>
-            <OurServices></OurServices>
+            <div id="helloServices">
+                <OurServices></OurServices>
+            </div>
             <AboutUs ></AboutUs>
             <PortFolio></PortFolio>
             <TrustedBy></TrustedBy>

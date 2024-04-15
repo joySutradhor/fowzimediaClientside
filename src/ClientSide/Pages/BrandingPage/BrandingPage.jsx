@@ -1,10 +1,10 @@
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Footer from "../Shared/Footer/Footer";
 import Testimonial from "../HomePage/Testimonial/Testimonial";
 import CallToAction from "../HomePage/CallToAction/CallToAction";
 import { useState } from "react";
 
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
 import headerLogo from "/headerLogo.png"
 
 import fb from "/fb.png";
@@ -64,7 +64,7 @@ const BrandingPage = () => {
                         <div className='hidden md:block lg:block xl:block 2xl:block'>
                             <ul className="headMenuLeftRight  z-auto  ">
                                 <Link to="/"> <li className="desktopMenu   ">HOME</li> </Link>
-                                <Link to='ourServices' smooth={true} duration={500} offset={-80}  > <li className="desktopMenu">SERVICES</li> </Link>
+                                <Link to='/#helloServices'   > <li className="desktopMenu">SERVICES</li> </Link>
                                 <Link to="aboutUsSection" smooth={true} duration={600} offset={-80} > <li className=" desktopMenu">ABOUT</li> </Link>
                                 <Link to="portfolio" smooth={true} duration={700} offset={120}> <li className="desktopMenu ">PORTFOLIO</li> </Link>
                                 <Link to="blog" smooth={true} duration={800} offset={-80}> <li className=" desktopMenu">BLOG</li> </Link>

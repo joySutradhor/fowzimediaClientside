@@ -298,7 +298,7 @@
   }
 
   .blogHeading {
-    @apply 2xl:text-[25px] 2xl:leading-[30px] 2xl:px-[15px] xl:text-[20px] xl:leading-[20px] xl:px-[11px] text-[12px] px-[5px]
+    @apply 2xl:text-[25px] 2xl:leading-[30px] 2xl:px-[15px] xl:text-[20px] xl:leading-[20px] xl:py-[11px] xl:px-[11px] text-[12px] px-[5px]
     /* ---------common Styles ------------- */
     font-glaCailBold text-white
   }
