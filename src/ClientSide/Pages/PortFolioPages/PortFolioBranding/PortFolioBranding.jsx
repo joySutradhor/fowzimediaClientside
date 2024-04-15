@@ -271,7 +271,7 @@ const PortFolioBranding = () => {
                                                         <p><FaArrowRightLong></FaArrowRightLong></p>
                                                     </div>
                                                 </div>
-                                                <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4>
+                                                {/* <h4 className="potraitBottomText rounded-[15px] text-center">Lorem</h4> */}
                                             </div>
                                             <h4 className="potraitBottomText rounded-[15px] text-center">Wellbeing Care</h4>
                                         </div>
