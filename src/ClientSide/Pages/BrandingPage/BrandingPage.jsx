@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Footer from "../Shared/Footer/Footer";
 import Testimonial from "../HomePage/Testimonial/Testimonial";
-import CallToAction from "../HomePage/CallToAction/CallToAction";
+
 import { useState } from "react";
 
 // import { Link } from 'react-scroll';
@@ -14,6 +14,7 @@ import { SlMenu } from "react-icons/sl";
 import { RxCross1 } from "react-icons/rx";
 
 import { Fade } from 'react-awesome-reveal';
+import CallToAction from './../HomePage/CallToAction/CallToAction';
 
 
 
@@ -64,11 +65,11 @@ const BrandingPage = () => {
                         <div className='hidden md:block lg:block xl:block 2xl:block'>
                             <ul className="headMenuLeftRight  z-auto  ">
                                 <Link to="/"> <li className="desktopMenu   ">HOME</li> </Link>
-                                <Link to='/#helloServices'   > <li className="desktopMenu">SERVICES</li> </Link>
-                                <Link to="aboutUsSection" smooth={true} duration={600} offset={-80} > <li className=" desktopMenu">ABOUT</li> </Link>
-                                <Link to="portfolio" smooth={true} duration={700} offset={120}> <li className="desktopMenu ">PORTFOLIO</li> </Link>
-                                <Link to="blog" smooth={true} duration={800} offset={-80}> <li className=" desktopMenu">BLOG</li> </Link>
-                                <Link to='footer' smooth={true} duration={1000} offset={-80}> <li className="cursor-pointer"> CONTACT</li> </Link>
+                                <Link to='/'   > <li className="desktopMenu">SERVICES</li> </Link>
+                                <Link to="/"  > <li className=" desktopMenu">ABOUT</li> </Link>
+                                <Link to="/" > <li className="desktopMenu ">PORTFOLIO</li> </Link>
+                                <Link to="/" > <li className=" desktopMenu">BLOG</li> </Link>
+                                <Link to='/'> <li className="cursor-pointer"> CONTACT</li> </Link>
                             </ul>
                         </div>
                         {/* -----------------------Mobile Header Menu ------------------  */}
@@ -93,19 +94,19 @@ const BrandingPage = () => {
                                                 <Link to="/">
                                                     <li>HOME</li>
                                                 </Link>
-                                                <Link to='OurServices' smooth={true} duration={500}>
+                                                <Link to='/' smooth={true} duration={500}>
                                                     <li >SERVICES</li>
                                                 </Link>
-                                                <Link to="aboutUsSection" smooth={true} duration={600} >
+                                                <Link to="/" smooth={true} duration={600} >
                                                     <li >ABOUT</li>
                                                 </Link>
-                                                <Link to="portfolio" smooth={true} duration={700}>
+                                                <Link to="/" smooth={true} duration={700}>
                                                     <li >PORTFOLIO</li>
                                                 </Link>
-                                                <Link to="blog" smooth={true} duration={800}>
+                                                <Link to="/" smooth={true} duration={800}>
                                                     <li >BLOG</li>
                                                 </Link>
-                                                <Link to='footer' smooth={true} duration={1000}>
+                                                <Link to='/' smooth={true} duration={1000}>
                                                     <li className="cursor-pointer"> CONTACT</li>
                                                 </Link>
                                             </Fade>

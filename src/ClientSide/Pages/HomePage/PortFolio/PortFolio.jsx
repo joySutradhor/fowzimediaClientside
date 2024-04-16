@@ -62,7 +62,7 @@ const PortFolio = () => {
                             <div className="2xl:h-[778px]  2xl:w-[405px] xl:h-[450.18px]  overflow-hidden ">
                                 <img className=" rounded-[2px] h-full w-full object-cover hover:scale-125 duration-1000" src={camera1} alt="" />
                             </div>
-                            <p className="porfolioText">PhotoGraphy</p>
+                            <p className="porfolioText">Photography</p>
                         </div>
                     </Link>
                 </Fade>

@@ -84,11 +84,11 @@ const Photography = () => {
                         <div className='hidden md:block lg:block xl:block 2xl:block'>
                             <ul className="headMenuLeftRight  z-auto  ">
                                 <Link to="/"> <li className="desktopMenu   ">HOME</li> </Link>
-                                <Link to='OurServices' smooth={true} duration={500}> <li className="desktopMenu">SERVICES</li> </Link>
-                                <Link to="aboutUsSection" smooth={true} duration={600} > <li className=" desktopMenu">ABOUT</li> </Link>
-                                <Link to="portfolio" smooth={true} duration={700}> <li className="desktopMenu ">PORTFOLIO</li> </Link>
-                                <Link to="blog" smooth={true} duration={800}> <li className=" desktopMenu">BLOG</li> </Link>
-                                <Link to='footer' smooth={true} duration={1000}> <li className="cursor-pointer"> CONTACT</li> </Link>
+                                <Link to='/' > <li className="desktopMenu">SERVICES</li> </Link>
+                                <Link to="/" > <li className=" desktopMenu">ABOUT</li> </Link>
+                                <Link to="/" > <li className="desktopMenu ">PORTFOLIO</li> </Link>
+                                <Link to="/" > <li className=" desktopMenu">BLOG</li> </Link>
+                                <Link to='/' > <li className="cursor-pointer"> CONTACT</li> </Link>
                             </ul>
                         </div>
                         {/* -----------------------Mobile Header Menu ------------------  */}
@@ -113,19 +113,19 @@ const Photography = () => {
                                                 <Link to="/">
                                                     <li>HOME</li>
                                                 </Link>
-                                                <Link to='OurServices' smooth={true} duration={500}>
+                                                <Link to='/' smooth={true} duration={500}>
                                                     <li >SERVICES</li>
                                                 </Link>
-                                                <Link to="aboutUsSection" smooth={true} duration={600} >
+                                                <Link to="/" smooth={true} duration={600} >
                                                     <li >ABOUT</li>
                                                 </Link>
-                                                <Link to="portfolio" smooth={true} duration={700}>
+                                                <Link to="/" smooth={true} duration={700}>
                                                     <li >PORTFOLIO</li>
                                                 </Link>
-                                                <Link to="blog" smooth={true} duration={800}>
+                                                <Link to="/" smooth={true} duration={800}>
                                                     <li >BLOG</li>
                                                 </Link>
-                                                <Link to='footer' smooth={true} duration={1000}>
+                                                <Link to='/' smooth={true} duration={1000}>
                                                     <li className="cursor-pointer"> CONTACT</li>
                                                 </Link>
                                             </Fade>
@@ -437,7 +437,7 @@ const Photography = () => {
                         <div className="fixed z-10 inset-0 overflow-y-auto">
                             <div className="flex items-center justify-center min-h-screen">
                                 <div className="fixed inset-0 bg-gray-700 bg-opacity-75 transition-opacity" aria-hidden="true" ></div>
-                                <div className="relative bg-gray-700 rounded-sm w-[90%] md:w-[70%] lg:w-[70%] xl:w-[40%] 2xl:w-[50%]  mx-auto overflow-hidden shadow-md transform transition-all ">
+                                <div className="relative bg-gray-700 xl:rounded-3xl 2xl:rounded-3xl lg:rounded-2xl md:rounded-2xl rounded-xl  border w-[90%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[50%]  mx-auto overflow-hidden shadow-md transform transition-all ">
                                     <div className="px-6 py-4">
 
                                         <div className="flex justify-between items-start">

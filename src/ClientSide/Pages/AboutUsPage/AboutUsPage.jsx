@@ -56,11 +56,11 @@ const AboutUsPage = () => {
                         <div className='hidden md:block lg:block xl:block 2xl:block'>
                             <ul className="headMenuLeftRight  z-auto  ">
                                 <Link to="/"> <li className="desktopMenu   ">HOME</li> </Link>
-                                <Link to='OurServices' smooth={true} duration={500}> <li className="desktopMenu">SERVICES</li> </Link>
-                                <Link to="aboutUsSection" smooth={true} duration={600} > <li className=" desktopMenu">ABOUT</li> </Link>
-                                <Link to="portfolio" smooth={true} duration={700}> <li className="desktopMenu ">PORTFOLIO</li> </Link>
-                                <Link to="blog" smooth={true} duration={800}> <li className=" desktopMenu">BLOG</li> </Link>
-                                <Link to='footer' smooth={true} duration={1000}> <li className="cursor-pointer"> CONTACT</li> </Link>
+                                <Link to='/' > <li className="desktopMenu">SERVICES</li> </Link>
+                                <Link to="/"  > <li className=" desktopMenu">ABOUT</li> </Link>
+                                <Link to="/" > <li className="desktopMenu ">PORTFOLIO</li> </Link>
+                                <Link to="/"> <li className=" desktopMenu">BLOG</li> </Link>
+                                <Link to='/' > <li className="cursor-pointer"> CONTACT</li> </Link>
                             </ul>
                         </div>
                         {/* -----------------------Mobile Header Menu ------------------  */}
@@ -85,19 +85,19 @@ const AboutUsPage = () => {
                                                 <Link to="/">
                                                     <li>HOME</li>
                                                 </Link>
-                                                <Link to='OurServices' smooth={true} duration={500}>
+                                                <Link to='/' smooth={true} duration={500}>
                                                     <li >SERVICES</li>
                                                 </Link>
-                                                <Link to="aboutUsSection" smooth={true} duration={600} >
+                                                <Link to="/" smooth={true} duration={600} >
                                                     <li >ABOUT</li>
                                                 </Link>
-                                                <Link to="portfolio" smooth={true} duration={700}>
+                                                <Link to="/" smooth={true} duration={700}>
                                                     <li >PORTFOLIO</li>
                                                 </Link>
-                                                <Link to="blog" smooth={true} duration={800}>
+                                                <Link to="/" smooth={true} duration={800}>
                                                     <li >BLOG</li>
                                                 </Link>
-                                                <Link to='footer' smooth={true} duration={1000}>
+                                                <Link to='/' smooth={true} duration={1000}>
                                                     <li className="cursor-pointer"> CONTACT</li>
                                                 </Link>
                                             </Fade>

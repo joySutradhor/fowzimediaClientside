@@ -10,7 +10,7 @@ import { SlMenu } from "react-icons/sl";
 import { RxCross1 } from "react-icons/rx";
 
 import { Fade } from 'react-awesome-reveal';
-import { useState } from "react";
+import {  useState } from "react";
 
 
 
@@ -20,6 +20,7 @@ import { useState } from "react";
 const VideoGraphy = () => {
 
     const [menuOpen, setMenuOpen] = useState(false);
+    // const [isVideoOpen, setIsVideoOpen] = useState(false)
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
@@ -49,6 +50,8 @@ const VideoGraphy = () => {
     const closePopUp = () => {
         setPopUp(false);
     }
+
+
     return (
 
 
@@ -82,11 +85,11 @@ const VideoGraphy = () => {
                         <div className='hidden md:block lg:block xl:block 2xl:block'>
                             <ul className="headMenuLeftRight  z-auto  ">
                                 <Link to="/"> <li className="desktopMenu   ">HOME</li> </Link>
-                                <Link to='OurServices' smooth={true} duration={500}> <li className="desktopMenu">SERVICES</li> </Link>
-                                <Link to="aboutUsSection" smooth={true} duration={600} > <li className=" desktopMenu">ABOUT</li> </Link>
-                                <Link to="portfolio" smooth={true} duration={700}> <li className="desktopMenu ">PORTFOLIO</li> </Link>
-                                <Link to="blog" smooth={true} duration={800}> <li className=" desktopMenu">BLOG</li> </Link>
-                                <Link to='footer' smooth={true} duration={1000}> <li className="cursor-pointer"> CONTACT</li> </Link>
+                                <Link to='/' > <li className="desktopMenu">SERVICES</li> </Link>
+                                <Link to="/"  > <li className=" desktopMenu">ABOUT</li> </Link>
+                                <Link to="/" > <li className="desktopMenu ">PORTFOLIO</li> </Link>
+                                <Link to="/" > <li className=" desktopMenu">BLOG</li> </Link>
+                                <Link to='/' > <li className="cursor-pointer"> CONTACT</li> </Link>
                             </ul>
                         </div>
                         {/* -----------------------Mobile Header Menu ------------------  */}
@@ -111,19 +114,19 @@ const VideoGraphy = () => {
                                                 <Link to="/">
                                                     <li>HOME</li>
                                                 </Link>
-                                                <Link to='OurServices' smooth={true} duration={500}>
+                                                <Link to='/' >
                                                     <li >SERVICES</li>
                                                 </Link>
-                                                <Link to="aboutUsSection" smooth={true} duration={600} >
+                                                <Link to="/"  >
                                                     <li >ABOUT</li>
                                                 </Link>
-                                                <Link to="portfolio" smooth={true} duration={700}>
+                                                <Link to="/" >
                                                     <li >PORTFOLIO</li>
                                                 </Link>
-                                                <Link to="blog" smooth={true} duration={800}>
+                                                <Link to="/" >
                                                     <li >BLOG</li>
                                                 </Link>
-                                                <Link to='footer' smooth={true} duration={1000}>
+                                                <Link to='/' >
                                                     <li className="cursor-pointer"> CONTACT</li>
                                                 </Link>
                                             </Fade>
@@ -265,6 +268,7 @@ const VideoGraphy = () => {
                         </div>
                     </div>
                 </div>
+
                 {/* --------------our Process Section --------------- */}
 
                 <div className="text-white leftRight">
@@ -354,11 +358,10 @@ const VideoGraphy = () => {
                     <div className="ourWorkParent">
                         <div>
                             <img className="WorkImgOne" src="/cardOne.png" alt="" />
-
                         </div>
                         <div>
                             <img className="WorkImgTwo" src="/cardTwo.jpeg" alt="" />
-
+                            
                         </div>
                         <div>
                             <img className="WorkImgThree" src="/cardThree.png" alt="" />
@@ -433,7 +436,7 @@ const VideoGraphy = () => {
                         <div className="fixed z-10 inset-0 overflow-y-auto">
                             <div className="flex items-center justify-center min-h-screen">
                                 <div className="fixed inset-0 bg-gray-700 bg-opacity-75 transition-opacity" aria-hidden="true" ></div>
-                                <div className="relative bg-gray-700 rounded-sm w-[90%] md:w-[70%] lg:w-[70%] xl:w-[40%] 2xl:w-[50%]  mx-auto overflow-hidden shadow-md transform transition-all ">
+                                <div className="relative bg-gray-700 xl:rounded-3xl 2xl:rounded-3xl lg:rounded-2xl md:rounded-2xl rounded-xl  border w-[90%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[50%]  mx-auto overflow-hidden shadow-md transform transition-all ">
                                     <div className="px-6 py-4">
 
                                         <div className="flex justify-between items-start">

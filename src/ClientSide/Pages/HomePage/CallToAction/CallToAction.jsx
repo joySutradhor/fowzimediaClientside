@@ -81,10 +81,10 @@ const CallToAction = () => {
             {
                 popUp && <>
 
-                    <div className="fixed z-10 inset-0 overflow-y-auto">
+                    <div className="fixed z-50 inset-0 overflow-y-auto">
                         <div className="flex items-center justify-center min-h-screen">
                             <div className="fixed inset-0 bg-gray-700 bg-opacity-75 transition-opacity" aria-hidden="true" ></div>
-                            <div className="relative bg-gray-700 xl:rounded-3xl  border w-[90%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[50%]  mx-auto overflow-hidden shadow-md transform transition-all ">
+                            <div className="relative bg-gray-700 xl:rounded-3xl 2xl:rounded-3xl lg:rounded-2xl md:rounded-2xl rounded-xl  border w-[90%] md:w-[70%] lg:w-[70%] xl:w-[70%] 2xl:w-[50%]  mx-auto overflow-hidden shadow-md transform transition-all ">
                                 <div className="px-6 py-4">
 
                                     <div className="flex justify-between items-start">

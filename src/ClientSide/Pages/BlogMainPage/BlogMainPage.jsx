@@ -83,11 +83,11 @@ const BlogMainPage = () => {
                     <div className='hidden md:block lg:block xl:block 2xl:block'>
                         <ul className="headMenuLeftRight  z-auto  ">
                             <ScrollLink to="/"> <li className="desktopMenu   ">HOME</li> </ScrollLink>
-                            <ScrollLink to='OurServices' smooth={true} duration={500}> <li className="desktopMenu">SERVICES</li> </ScrollLink>
-                            <ScrollLink to="aboutUsSection" smooth={true} duration={600} > <li className=" desktopMenu">ABOUT</li> </ScrollLink>
-                            <ScrollLink to="portfolio" smooth={true} duration={700}> <li className="desktopMenu ">PORTFOLIO</li> </ScrollLink>
+                            <ScrollLink to="/"> <li className="desktopMenu">SERVICES</li> </ScrollLink>
+                            <ScrollLink to="/" > <li className=" desktopMenu">ABOUT</li> </ScrollLink>
+                            <ScrollLink to="/"> <li className="desktopMenu ">PORTFOLIO</li> </ScrollLink>
                             <RouterLink to="/blogs" > <li className=" desktopMenu">BLOG</li> </RouterLink>
-                            <ScrollLink to='footer' smooth={true} duration={1000}> <li className="cursor-pointer"> CONTACT</li> </ScrollLink>
+                            <ScrollLink to="/"> <li className="cursor-pointer"> CONTACT</li> </ScrollLink>
                         </ul>
                     </div>
                     {/* -----------------------Mobile Header Menu ------------------  */}
@@ -112,19 +112,19 @@ const BlogMainPage = () => {
                                             <ScrollLink to="/">
                                                 <li>HOME</li>
                                             </ScrollLink>
-                                            <ScrollLink to='OurServices' smooth={true} duration={500}>
+                                            <ScrollLink to="/">
                                                 <li >SERVICES</li>
                                             </ScrollLink>
-                                            <ScrollLink to="aboutUsSection" smooth={true} duration={600} >
+                                            <ScrollLink to="/" >
                                                 <li >ABOUT</li>
                                             </ScrollLink>
-                                            <ScrollLink to="portfolio" smooth={true} duration={700}>
+                                            <ScrollLink to="/">
                                                 <li >PORTFOLIO</li>
                                             </ScrollLink>
-                                            <RouterLink to="blog" smooth={true} duration={800}>
+                                            <RouterLink to="/">
                                                 <li >BLOG</li>
                                             </RouterLink>
-                                            <ScrollLink to='footer' smooth={true} duration={1000}>
+                                            <ScrollLink to="/">
                                                 <li className="cursor-pointer"> CONTACT</li>
                                             </ScrollLink>
                                         </Fade>
